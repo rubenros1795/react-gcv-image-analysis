@@ -1,0 +1,2428 @@
+{
+    "responses": [
+        {
+            "webDetection": {
+                "bestGuessLabels": [
+                    {
+                        "label": "john filo kent state",
+                        "languageCode": "en"
+                    }
+                ],
+                "fullMatchingImages": [
+                    {
+                        "url": "https://www.snopes.com/tachyon/2016/03/donald-trump-protesters-strecther.jpg?fit=920,618"
+                    },
+                    {
+                        "url": "https://georgerook51.files.wordpress.com/2018/09/abdd1df6-f4fc-462f-862e-46e1c737aa30.jpeg?w=676"
+                    },
+                    {
+                        "url": "https://georgerook51.files.wordpress.com/2018/09/abdd1df6-f4fc-462f-862e-46e1c737aa30.jpeg"
+                    },
+                    {
+                        "url": "https://cdn.counter-currents.com/wp-content/uploads/2016/03/donald-trump-protesters-strecther-e1458216159308.jpg"
+                    },
+                    {
+                        "url": "https://i.pinimg.com/474x/fd/62/e0/fd62e0704cf6404b76b81d79b5fe82e7.jpg"
+                    }
+                ],
+                "pagesWithMatchingImages": [
+                    {
+                        "pageTitle": "Photography For Change | BKC",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://images.squarespace-cdn.com/content/v1/53bc0878e4b0f9fe5b575998/1494624771908-92TNBMEJFA2YGALHXS7N/ke17ZwdGBToddI8pDm48kAnnfea7JZz1tZW0EpnfudJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYr145E5OlY98cRAWWqRCZ8n80TzcSqjVZW-hRqTdSE10sc8M5GEoqn2Jm2XhV6veQ/time-100-influential-photos-john-paul-filo-kent-state-shootings-65.jpg"
+                            }
+                        ],
+                        "url": "http://www.wearebkc.com/nextgen"
+                    },
+                    {
+                        "pageTitle": "What Was the Most Influential Photograph in History? - The Atlantic",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://cdn.theatlantic.com/assets/media/img/posts/2017/12/kentstate/8b2cb9fc3.jpg"
+                            }
+                        ],
+                        "url": "https://www.theatlantic.com/magazine/archive/2018/01/what-was-the-most-influential-photograph-in-history/546596/"
+                    },
+                    {
+                        "pageTitle": "&#39;Bloodied&#39; <b>Kent State</b> sweatshirt removed from Urban Outfitters ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.guim.co.uk/img/static/sys-images/Guardian/About/General/2012/10/4/1349372731874/Student-Jeffrey-Miller-ki-011.jpg?width=300&quality=85&auto=format&fit=max&s=d86b9b38b329736b4217d4131ffd407d"
+                            }
+                        ],
+                        "url": "https://www.theguardian.com/world/2014/sep/15/bloodied-kent-state-sweatshirt-urban-outfitters"
+                    },
+                    {
+                        "pageTitle": "Remembering the Jews of <b>Kent State</b>, 45 Years Later \u2013 The Forward",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://images.forwardcdn.com/image/1090x480/center/images/cropped/7jpgcroporiginal-original-1430764274.jpg"
+                            },
+                            {
+                                "url": "https://images.forwardcdn.com/image/720x/center/images/cropped/7jpgcroporiginal-original-1430764274.jpg"
+                            },
+                            {
+                                "url": "https://assets.forwardcdn.com/images/cropped/7jpgcroporiginal-original-1430764274.jpg"
+                            }
+                        ],
+                        "url": "https://forward.com/schmooze/307465/remembering-kent-state-45-years-later/"
+                    },
+                    {
+                        "fullMatchingImages": [
+                            {
+                                "url": "https://www.snopes.com/tachyon/2016/03/donald-trump-protesters-strecther.jpg?resize=865,452"
+                            },
+                            {
+                                "url": "https://www.snopes.com/tachyon/2016/03/donald-trump-protesters-strecther.jpg?fit=920,618"
+                            }
+                        ],
+                        "pageTitle": "Donald Trump &#39;Protester&#39; Quote/<b>Kent State</b> Comparison - Snopes.com",
+                        "url": "https://www.snopes.com/fact-check/donald-trump-kent-state/"
+                    },
+                    {
+                        "pageTitle": "\u201c<b>Kent State</b> Shootings,\u201d photo by <b>John Filo</b> (1970) \u2013 The Arts in ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://kubotaerin.files.wordpress.com/2016/05/7-crop-original-original.jpg?w=720"
+                            }
+                        ],
+                        "url": "https://kubotaerin.wordpress.com/2016/05/22/kent-state-shootings-photo-1970/"
+                    },
+                    {
+                        "pageTitle": "The unquiet ghosts of <b>Kent State</b> | Stewart J Lawrence | Opinion ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/red/blue_pics/2011/05/03/kentstate_460x276.jpg?width=300&quality=85&auto=format&fit=max&s=7062c32bbed14ca77fc7a557aed06e73"
+                            }
+                        ],
+                        "url": "https://www.theguardian.com/commentisfree/cifamerica/2011/may/04/vietnam-us-military"
+                    },
+                    {
+                        "pageTitle": "POINT OF VIEW ~ POLITICAL, SOCIAL ISSUES \u2014 Four students ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://66.media.tumblr.com/703d05d5042dc410aab4b745ee5a8e6a/tumblr_n50eleTTbf1qgekmwo1_1280.jpg"
+                            }
+                        ],
+                        "url": "https://todayinpolitics.tumblr.com/post/84633176804/four-students-were-killed-and-nine-others-wounded"
+                    },
+                    {
+                        "pageTitle": "Connie Schultz on Twitter: &quot;I&#39;m a journalist teaching at <b>Kent State</b> ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pbs.twimg.com/media/EJK2hHOWwAAmDex.jpg"
+                            }
+                        ],
+                        "url": "https://twitter.com/ConnieSchultz/status/1194217535278845958"
+                    },
+                    {
+                        "pageTitle": "Teenager Mary Ann Vecchio screams as she kneels over the body ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://media.gettyimages.com/photos/teenager-mary-ann-vecchio-screams-as-she-kneels-over-the-body-of-kent-picture-id90256495"
+                            }
+                        ],
+                        "url": "https://www.gettyimages.com/detail/news-photo/mary-ann-vecchio-screams-as-she-kneels-over-the-body-of-news-photo/90256495"
+                    },
+                    {
+                        "pageTitle": "<b>john filo</b> | Tumblr",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://66.media.tumblr.com/703d05d5042dc410aab4b745ee5a8e6a/tumblr_n50eleTTbf1qgekmwo1_1280.jpg"
+                            }
+                        ],
+                        "url": "https://www.tumblr.com/tagged/john+filo"
+                    },
+                    {
+                        "pageTitle": "<b>Kent State</b> shootings: Chaos that forever changed rock music",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i0.wp.com/faroutmagazine.co.uk/wp-content/uploads/2019/07/Thirty-seconds-of-chaos-that-forever-changed-rock-history.jpeg?fit=850%2C567&ssl=1&w=640"
+                            },
+                            {
+                                "url": "https://i0.wp.com/faroutmagazine.co.uk/wp-content/uploads/2019/07/Thirty-seconds-of-chaos-that-forever-changed-rock-history.jpeg?fit=850%2C567&ssl=1"
+                            }
+                        ],
+                        "url": "https://faroutmagazine.co.uk/kent-state-shootings-story-rock-music-history/"
+                    },
+                    {
+                        "pageTitle": "HISTORY \u2013 4 May 1970 \u2013 <b>Kent State</b> Shootings In Ohio | TURN UP ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://turnupthatvolume.files.wordpress.com/2019/05/ohio.jpg"
+                            },
+                            {
+                                "url": "https://turnupthatvolume.files.wordpress.com/2019/05/ohio.jpg?w=1000"
+                            }
+                        ],
+                        "url": "https://turnupthevolume.blog/2019/05/04/history-4-may-1970-kent-state-shootings-in-ohio/"
+                    },
+                    {
+                        "pageTitle": "THE HELL OF WHITE PRIVILEGE \u2014 GLICKMAN DIGITAL MEDIA",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://images.squarespace-cdn.com/content/v1/5a05a02fcd39c33e5f78f697/1556983169010-W46CM2PN528525VH6WND/ke17ZwdGBToddI8pDm48kAnnfea7JZz1tZW0EpnfudJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYr145E5OlY98cRAWWqRCZ8n80TzcSqjVZW-hRqTdSE10sc8M5GEoqn2Jm2XhV6veQ/time-100-influential-photos-john-paul-filo-kent-state-shootings-65.jpg"
+                            },
+                            {
+                                "url": "https://images.squarespace-cdn.com/content/v1/5a05a02fcd39c33e5f78f697/1556983169010-W46CM2PN528525VH6WND/ke17ZwdGBToddI8pDm48kAnnfea7JZz1tZW0EpnfudJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYr145E5OlY98cRAWWqRCZ8n80TzcSqjVZW-hRqTdSE10sc8M5GEoqn2Jm2XhV6veQ/time-100-influential-photos-john-paul-filo-kent-state-shootings-65.jpg?format=750w"
+                            }
+                        ],
+                        "url": "https://www.glickmandigitalmedia.com/historys-an-eel"
+                    },
+                    {
+                        "pageTitle": "A First-Hand Account of May 4, 1970 - Chloe Martelon - Medium",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://miro.medium.com/max/3214/1*V7i7eiKVkE4BDC2D_9Ac4w.jpeg"
+                            }
+                        ],
+                        "url": "https://medium.com/@chloetride/a-first-hand-account-of-may-4-1970-62f2b64e2e0f"
+                    },
+                    {
+                        "pageTitle": "10 of the most iconic protest photos - Timeline",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://miro.medium.com/max/5000/1*e79NHdyyDSTY7XwFfO8vWQ.jpeg"
+                            }
+                        ],
+                        "url": "https://timeline.com/iconic-photos-political-protest-81c5701f9695"
+                    },
+                    {
+                        "pageTitle": "<b>Kent State</b> May 4 1970 Photo <b>John Filo</b> I Love the Old Days You ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pics.me.me/kent-state-may-4-1970-photo-john-filo-i-love-7295655.png"
+                            }
+                        ],
+                        "url": "https://me.me/i/kent-state-may-4-1970-photo-john-filo-i-love-4517275"
+                    },
+                    {
+                        "pageTitle": "What <b>Kent State</b> Teaches Us About Free Speech - The Advocates for ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://www.theadvocates.org/wp-content/uploads/2017/06/time-100-influential-photos-john-paul-filo-kent-state-shootings-65.jpg"
+                            }
+                        ],
+                        "url": "https://www.theadvocates.org/2017/06/can-learn-free-speech-kent-state/"
+                    },
+                    {
+                        "pageTitle": "<b>Kent State</b> May 4 1970 Photo <b>John Filo</b> I Love the Old Days You ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pics.me.me/kent-state-may-4-1970-photo-john-filo-i-love-20417969.png"
+                            }
+                        ],
+                        "url": "https://me.me/i/kent-state-may-4-1970-photo-john-filo-i-love-14195638"
+                    },
+                    {
+                        "pageTitle": "<b>Kent State</b> May 41970 Photo <b>John Filo</b> I Love the Old Days You ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pics.me.me/kent-state-may-4-1970-photo-john-filo-i-love-the-20361068.png"
+                            }
+                        ],
+                        "url": "https://me.me/i/kent-state-may-4-1970-photo-john-filo-i-love-the-14004942"
+                    },
+                    {
+                        "pageTitle": "Crosby Stills Nash And Young | TURN UP THE VOLUME!",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://turnupthatvolume.files.wordpress.com/2019/05/ohio.jpg"
+                            }
+                        ],
+                        "url": "https://turnupthevolume.blog/tag/crosby-stills-nash-and-young/"
+                    },
+                    {
+                        "pageTitle": "10 Times a Photo Changed History - PhotographyTalk",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://static.photocdn.pt/images/articles/2019/08/28/most_famous_pictures.jpg"
+                            }
+                        ],
+                        "url": "https://www.photographytalk.com/10-photos-that-changed-history"
+                    },
+                    {
+                        "pageTitle": "<b>kent state</b> protest | Tumblr",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://66.media.tumblr.com/0f639c424b3222aee32f52a9926b7368/tumblr_inline_p7lvb6P9Be1spltrl_540.jpg"
+                            }
+                        ],
+                        "url": "https://www.tumblr.com/tagged/kent-state-protest"
+                    },
+                    {
+                        "pageTitle": "<b>Kent State</b> May 4 1970 Photo <b>John Filo</b> I Love the Old Days You ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pics.esmemes.com/kent-state-may-4-1970-photo-john-filo-i-love-7295655.png"
+                            }
+                        ],
+                        "url": "https://esmemes.com/i/kent-state-may-4-1970-photo-john-filo-i-love-4517275"
+                    },
+                    {
+                        "pageTitle": "<b>Kent State</b> Shootings \u201cOhio\u201d \u2013 Neil Young - ppt download - SlidePlayer",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://slideplayer.com/slide/17031285/98/images/6/Filo%E2%80%99s+famous+photo+of+student+turmoil.jpg"
+                            }
+                        ],
+                        "url": "https://slideplayer.com/slide/17031285/"
+                    },
+                    {
+                        "pageTitle": "The Shootings at <b>Kent State</b> - James Slate - Medium",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://miro.medium.com/max/2800/0*6stIG9wUxqddw_uR.jpg"
+                            }
+                        ],
+                        "url": "https://medium.com/@JSlate__/the-shootings-at-kent-state-741c37a212e"
+                    },
+                    {
+                        "pageTitle": "&#39;<b>Kent State</b> Massacre&#39; \u2013 why did Ohio National Guardsmen shoot ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.ytimg.com/vi/5jlnu93tMBM/sddefault.jpg#404_is_fine"
+                            }
+                        ],
+                        "url": "https://www.mrallsophistory.com/revision/kent-state-massacre-why-did-ohio-national-guardsmen-shoot-university-students.html"
+                    },
+                    {
+                        "pageTitle": "<b>Kent State</b> May 41970 Photo <b>John Filo</b> I Love the Old Days You ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pics.awwmemes.com/kent-state-may-4-1970-photo-john-filo-i-love-the-20361068.png"
+                            }
+                        ],
+                        "url": "https://awwmemes.com/i/kent-state-may-4-1970-photo-john-filo-i-love-the-14004942"
+                    },
+                    {
+                        "pageTitle": "Why is the Tiananmen massacre mentioned so often and the <b>Kent</b> ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://qph.fs.quoracdn.net/main-qimg-27083108530f5790bcc5e3e793fcef83"
+                            }
+                        ],
+                        "url": "https://www.quora.com/Why-is-the-Tiananmen-massacre-mentioned-so-often-and-the-Kent-State-massacre-hardly-ever-mentioned-Are-they-not-very-similar-only-in-different-countries"
+                    },
+                    {
+                        "pageTitle": "24 Tragic Photos of the Kent State Shootings, 1970 - Yesterday Today",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://1.bp.blogspot.com/-YorpQXBS4Q0/XTht3OfRCsI/AAAAAAAAfck/ielSoct-XDwjupNPumOAXvYmG4U-GYKEwCLcBGAs/s280/5.jpg"
+                            }
+                        ],
+                        "url": "https://www.yesterdaytoday.net/2019/07/24-tragic-photos-of-kent-state.html"
+                    },
+                    {
+                        "pageTitle": "US foreign policy | Page 338 of 583 | US news | The Guardian",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/red/blue_pics/2011/05/03/kentstate_460x276.jpg?width=300&quality=85&auto=format&fit=max&s=7062c32bbed14ca77fc7a557aed06e73"
+                            }
+                        ],
+                        "url": "https://www.theguardian.com/us-news/us-foreign-policy?page=338"
+                    },
+                    {
+                        "pageTitle": "Uncategorized Archives | Page 30 of 80 | Snopes.com",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://www.snopes.com/tachyon/2016/03/donald-trump-protesters-strecther.jpg?resize=865,452"
+                            }
+                        ],
+                        "url": "https://www.snopes.com/fact-check/category/uncategorized/page/30/"
+                    },
+                    {
+                        "pageTitle": "Black Lives Matter | Tell Me Another",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://josna.files.wordpress.com/2016/07/130605144602-12-protests-horizontal-large-gallery.jpg?w=584&h=329"
+                            }
+                        ],
+                        "url": "https://josna.wordpress.com/tag/black-lives-matter/"
+                    },
+                    {
+                        "pageTitle": "Feldman 4 steps to Art Criticism - ppt download - SlidePlayer",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://slideplayer.com/slide/14723040/90/images/10/John+Filo%2C+Anti+War+Demo%2C+Kent+State.jpg"
+                            }
+                        ],
+                        "url": "https://slideplayer.com/slide/14723040/"
+                    },
+                    {
+                        "pageTitle": "Chloe Anagnos, Author at The Advocates for Self-Government ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://www.theadvocates.org/wp-content/uploads/2017/06/time-100-influential-photos-john-paul-filo-kent-state-shootings-65.jpg"
+                            }
+                        ],
+                        "url": "https://www.theadvocates.org/author/canagnos/page/2/"
+                    },
+                    {
+                        "pageTitle": "<b>Kent State</b> May 41970 Photo <b>John Filo</b> I Love the Old Days You ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pics.esmemes.com/kent-state-may-4-1970-photo-john-filo-i-love-the-20361068.png"
+                            }
+                        ],
+                        "url": "https://esmemes.com/i/kent-state-may-4-1970-photo-john-filo-i-love-the-14004942"
+                    },
+                    {
+                        "pageTitle": "On this day in 1970, at <b>Kent State</b> Univeristy, the Ohio National ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.redd.it/jyatfpfa5wv01.jpg"
+                            }
+                        ],
+                        "url": "https://www.reddit.com/r/Anarchism/comments/8h1yxj/on_this_day_in_1970_at_kent_state_univeristy_the/"
+                    },
+                    {
+                        "pageTitle": "<b>kent state</b> Archives - Arab American News",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://www.arabamericannews.com/wp-content/uploads/2018/02/Mary-Ann-Vecchio-screams-as-she-kneels-over-the-body-of-Jeffrey-Miller-during-an-anti-war-demonstration-at-Kent-State-University-Ohio-May-4-1970.-370x223.jpg"
+                            }
+                        ],
+                        "url": "https://www.arabamericannews.com/tag/kent-state/"
+                    },
+                    {
+                        "pageTitle": "Rearview Mirror: <b>Kent State</b> - T.K. Diamond - Medium",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://miro.medium.com/max/3214/1*V7i7eiKVkE4BDC2D_9Ac4w.jpeg"
+                            }
+                        ],
+                        "url": "https://medium.com/@tkdiamondauthor/rearview-mirror-kent-state-e85e1c40dbb4"
+                    },
+                    {
+                        "pageTitle": "Tragedy Art Project on Behance",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/c9ca5d47940023.5889715cb1d8e.jpg"
+                            }
+                        ],
+                        "url": "https://www.behance.net/gallery/47940023/Tragedy-Art-Project"
+                    },
+                    {
+                        "pageTitle": "Dope Blog For Music Junkies And Gig ... - TURN UP THE VOLUME!",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://turnupthatvolume.files.wordpress.com/2019/05/ohio.jpg"
+                            },
+                            {
+                                "url": "https://turnupthatvolume.files.wordpress.com/2019/05/ohio.jpg?w=1000"
+                            }
+                        ],
+                        "url": "https://turnupthevolume.blog/page/5/"
+                    },
+                    {
+                        "pageTitle": "Iconic photos of the Vietnam War - CNN.com",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://dynaimage.cdn.cnn.com/cnn/q_auto,h_600/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F140618103519-11-iconic-vietnam-war-restricted.jpg"
+                            }
+                        ],
+                        "url": "https://www.cnn.com/2014/06/19/world/gallery/iconic-vietnam-war-photos/index.html"
+                    },
+                    {
+                        "pageTitle": "the Boston Common | Tell Me Another",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://josna.files.wordpress.com/2016/07/130605144602-12-protests-horizontal-large-gallery.jpg?w=584&h=329"
+                            }
+                        ],
+                        "url": "https://josna.wordpress.com/tag/the-boston-common/"
+                    },
+                    {
+                        "pageTitle": "Make Way for Ducklings | Tell Me Another",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://josna.files.wordpress.com/2016/07/130605144602-12-protests-horizontal-large-gallery.jpg?w=584&h=329"
+                            }
+                        ],
+                        "url": "https://josna.wordpress.com/tag/make-way-for-ducklings/"
+                    },
+                    {
+                        "pageTitle": "While much of Reddit is making Star Wars jokes, let&#39;s not forget the ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.redd.it/0wnyep1czvv01.jpg"
+                            }
+                        ],
+                        "url": "https://www.reddit.com/r/socialism/comments/8h1orv/while_much_of_reddit_is_making_star_wars_jokes/"
+                    },
+                    {
+                        "pageTitle": "While much of Reddit is making Star Wars jokes, let&#39;s not forget the ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://preview.redd.it/q1nrky9tyvv01.jpg?width=216&crop=smart&auto=webp&s=63c6051cee3c5af85aa1cc7b2e7846c85f824c75"
+                            },
+                            {
+                                "url": "https://i.redd.it/q1nrky9tyvv01.jpg"
+                            }
+                        ],
+                        "url": "https://www.reddit.com/r/LateStageCapitalism/comments/8h1o16/while_much_of_reddit_is_making_star_wars_jokes/"
+                    },
+                    {
+                        "pageTitle": "Wayback Wednesday: &quot;Four dead in Ohio&quot; - The Oklahoman",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://cdn2.newsok.biz/cache/w620-c3b7372c3020b3abd145811a99545579.jpg"
+                            }
+                        ],
+                        "url": "https://oklahoman.com/article/5494920/wayback-wednesday-four-dead-in-ohio"
+                    },
+                    {
+                        "pageTitle": "The Vietnam War: 5 things you might not know | CherriesWriter ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://cherrieswriter.files.wordpress.com/2019/01/140618103519-11-iconic-vietnam-war-restricted-horizontal-large-gallery.jpg?w=584"
+                            }
+                        ],
+                        "url": "https://cherrieswriter.com/2019/01/28/the-vietnam-war-5-things-you-might-not-know/"
+                    },
+                    {
+                        "pageTitle": "#kentstatemay4 hashtag on Twitter",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pbs.twimg.com/media/DcXzEKJV0AAC88h.jpg"
+                            }
+                        ],
+                        "url": "https://twitter.com/hashtag/kentstatemay4"
+                    },
+                    {
+                        "pageTitle": "Richard Nixon | Page 8 of 12 | US news | The Guardian",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/red/blue_pics/2011/05/03/kentstate_460x276.jpg?width=300&quality=85&auto=format&fit=max&s=7062c32bbed14ca77fc7a557aed06e73"
+                            }
+                        ],
+                        "url": "https://www.theguardian.com/us-news/richard-nixon?page=8"
+                    },
+                    {
+                        "pageTitle": "About The Schmooze \u2013 Page 654 of 1985 \u2013 The Schmooze \u2013 The ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://assets.forwardcdn.com/images/cropped/7jpgcroporiginal-original-1430764274.jpg"
+                            }
+                        ],
+                        "url": "https://forward.com/schmooze/about/?p=654"
+                    },
+                    {
+                        "pageTitle": "This is what protest sounds like - CNN",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://cdn.cnn.com/cnnnext/dam/assets/130605144602-12-protests-medium-plus-169.jpg"
+                            }
+                        ],
+                        "url": "https://www.cnn.com/2017/04/20/us/soundtracks-protest-music-evolution/index.html"
+                    },
+                    {
+                        "pageTitle": "Liberator Online Archives - Page 32 of 111 - The Advocates for Self ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://www.theadvocates.org/wp-content/uploads/2017/06/time-100-influential-photos-john-paul-filo-kent-state-shootings-65.jpg"
+                            }
+                        ],
+                        "url": "https://www.theadvocates.org/category/liberator-online/page/32/"
+                    },
+                    {
+                        "pageTitle": "The <b>Kent State</b> shootings; involved the shooting of unarmed college ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://external-preview.redd.it/09_TNj4FeDyNNO7h7TwqlvjoMHdhRPXqvStEfD6bAPU.jpg?auto=webp&s=251ab14e34da686eec846bd1962bfe8736159eba"
+                            }
+                        ],
+                        "url": "https://www.reddit.com/r/IconicImages/comments/2lbppc/the_kent_state_shootings_involved_the_shooting_of/"
+                    },
+                    {
+                        "pageTitle": "Wayback Wednesday: &quot;Four dead in Ohio&quot; | News OK",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://cdn2.newsok.biz/cache/w620-c3b7372c3020b3abd145811a99545579.jpg"
+                            }
+                        ],
+                        "url": "http://newsok.com/wayback-wednesday-four-dead-in-ohio/article/5494920?articleBar=1"
+                    },
+                    {
+                        "pageTitle": "The government wants you to remember school shootings, just not ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.imgur.com/QSYRtMB.jpg"
+                            }
+                        ],
+                        "url": "https://imgur.com/QSYRtMB"
+                    },
+                    {
+                        "pageTitle": "<b>Kent State</b> Massacre: May 4th, 1970 - Album on Imgur",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.imgur.com/ixNnpf0g.jpg"
+                            }
+                        ],
+                        "url": "https://imgur.com/gallery/BaTih/comment/219372877"
+                    },
+                    {
+                        "pageTitle": "Lefsetz: Say You Want a Revolution? | KC Confidential",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://www.kcconfidential.com/wp-content/uploads/2018/12/time-100-influential-photos-john-paul-filo-kent-state-shootings-65.jpg"
+                            }
+                        ],
+                        "url": "http://www.kcconfidential.com/2018/12/28/lefsetz-say-you-want-a-revolution-2/"
+                    },
+                    {
+                        "pageTitle": "No win situation comes November - Politics - Hannity Community",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://hannitycommunity.s3.dualstack.us-east-1.amazonaws.com/original/3X/0/8/086829e1482c9d8ac1376eb076bcaa9312f56c7e.jpeg"
+                            }
+                        ],
+                        "url": "https://community.hannity.com/t/no-win-situation-comes-november/17053?page=4"
+                    },
+                    {
+                        "pageTitle": "ohio national guard | Tumblr",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://66.media.tumblr.com/689df7c46ff473279f91d13fe46629bb/tumblr_inline_pqzb6hRRAg1r4w6w2_540.jpg"
+                            }
+                        ],
+                        "url": "https://www.tumblr.com/tagged/ohio+national+guard"
+                    },
+                    {
+                        "pageTitle": "<b>Kent State</b> Massacre: May 4th, 1970 - Album on Imgur",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.imgur.com/ixNnpf0.jpg"
+                            }
+                        ],
+                        "url": "https://imgur.com/gallery/BaTih/comment/219367963"
+                    },
+                    {
+                        "pageTitle": "First Amendment Archives - Page 5 of 7 - The Advocates for Self ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://www.theadvocates.org/wp-content/uploads/2017/06/time-100-influential-photos-john-paul-filo-kent-state-shootings-65.jpg"
+                            }
+                        ],
+                        "url": "https://www.theadvocates.org/category/first-amendment/page/5/"
+                    },
+                    {
+                        "pageTitle": "<b>Kent State</b> May 4 1970 Photo <b>John Filo</b> I Love the Old Days You ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pics.me.me/kent-state-may-4-1970-photo-john-filo-i-love-7295655.png"
+                            }
+                        ],
+                        "url": "https://onsizzle.com/i/kent-state-may-4-1970-photo-john-filo-i-love-4517275"
+                    },
+                    {
+                        "pageTitle": "System by Bas Feijen",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://www.basfeijen.nl/worldview/system/pic/johnfilokentstateshootings.jpg"
+                            }
+                        ],
+                        "url": "http://www.basfeijen.nl/worldview/system/antiwarmovement.htm"
+                    },
+                    {
+                        "pageTitle": "Unit 9: A Time Of Upheaval PowerPoint [Part 1] - SlideShare",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://image.slidesharecdn.com/unit9atimeofupheavalpowerpoint-150812235309-lva1-app6892/95/unit-9-a-time-of-upheaval-powerpoint-part-1-31-638.jpg?cb=1439423734"
+                            }
+                        ],
+                        "url": "https://www.slideshare.net/juliahemmings/unit-9-a-time-of-upheaval-powerpoint-part-1"
+                    },
+                    {
+                        "pageTitle": "Photography | history314 - Wix.com",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://static.wixstatic.com/media/c0c986_61d4a0303498411cbda163e43958f5bf.png/v1/fill/w_925,h_595,al_c,q_90/c0c986_61d4a0303498411cbda163e43958f5bf.webp"
+                            }
+                        ],
+                        "url": "https://kellen1994.wixsite.com/history314/photography"
+                    },
+                    {
+                        "pageTitle": "Photography | history314 - Wix.com",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://static.wixstatic.com/media/c0c986_61d4a0303498411cbda163e43958f5bf.png/v1/fill/w_925,h_595,al_c,q_90/c0c986_61d4a0303498411cbda163e43958f5bf.webp"
+                            }
+                        ],
+                        "url": "https://kellen1994.wixsite.com/history314/photography?lightbox=image_12bz"
+                    },
+                    {
+                        "pageTitle": "Vietnam2017 - AVC Distance Education",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://avconline.avc.edu/cyorke/images/7.jpg.CROP.original-original.jpg"
+                            }
+                        ],
+                        "url": "http://avconline.avc.edu/cyorke/Vietnam2017.html"
+                    },
+                    {
+                        "pageTitle": "forrest gump timeline | Timetoast timelines",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/14119742/image/original-b1c7ef97cebf027b393105f85a35eadb.jpg"
+                            }
+                        ],
+                        "url": "https://www.timetoast.com/timelines/forest-jump-timeline"
+                    },
+                    {
+                        "pageTitle": "Photography | history314 - Wix.com",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://static.wixstatic.com/media/c0c986_61d4a0303498411cbda163e43958f5bf.png/v1/fill/w_925,h_595,al_c,q_90/c0c986_61d4a0303498411cbda163e43958f5bf.webp"
+                            }
+                        ],
+                        "url": "https://kellen1994.wixsite.com/history314/photography?lightbox=image_cek"
+                    },
+                    {
+                        "pageTitle": "Photography | history314 - Wix.com",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://static.wixstatic.com/media/c0c986_61d4a0303498411cbda163e43958f5bf.png/v1/fill/w_925,h_595,al_c,q_90/c0c986_61d4a0303498411cbda163e43958f5bf.webp"
+                            }
+                        ],
+                        "url": "https://kellen1994.wixsite.com/history314/photography?lightbox=image_1cfh"
+                    },
+                    {
+                        "pageTitle": "War on the Home Front: Discussion Guide | Vietnam Veterans ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://image.pbs.org/poster_images/assets/waronhomefrontimage.png"
+                            }
+                        ],
+                        "url": "https://www.pbslearningmedia.org/resource/vietnam-war-on-homefront/vietnam-war-on-homefront/"
+                    },
+                    {
+                        "pageTitle": "Thread by @julianzelizer: &quot;A president invoking emergency powers ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pbs.twimg.com/media/DzdnJR0X0AA2qB3.jpg"
+                            }
+                        ],
+                        "url": "https://threadreaderapp.com/thread/1096456888185692163.html"
+                    },
+                    {
+                        "pageTitle": "The government wants you to remember school shootings, just not ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.imgur.com/QSYRtMB.jpg"
+                            }
+                        ],
+                        "url": "https://imgur.com/gallery/QSYRtMB/comment/52548924"
+                    },
+                    {
+                        "pageTitle": "Vietnam War timeline | Timetoast timelines",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/6321739/kent_state.jpg"
+                            }
+                        ],
+                        "url": "https://media.timetoast.com/timelines/vietnam-war-b420827c-46ae-48f0-afe1-ff18254da07a"
+                    },
+                    {
+                        "pageTitle": "PPT - <b>Kent State</b> Shootings PowerPoint Presentation, free download ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://image1.slideserve.com/2305444/may-4-th-monday3-l.jpg"
+                            }
+                        ],
+                        "url": "https://www.slideserve.com/dagan/kent-state-shootings"
+                    },
+                    {
+                        "pageTitle": "United <b>States</b> Political Timeline - Collins | Timetoast timelines",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/9497745/7.jpg.CROP.original-original.jpg"
+                            }
+                        ],
+                        "url": "https://www.timetoast.com/timelines/united-states-political-timeline-1563a113-161c-4166-92c2-b438e829e62e"
+                    },
+                    {
+                        "pageTitle": "QuoteMe on Flipboard by Joyce Mcc2",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://www.snopes.com/tachyon/2016/03/donald-trump-protesters-strecther.jpg?resize=865,452"
+                            }
+                        ],
+                        "url": "https://flipboard.com/@joycemccl/quoteme-r58dj9dez"
+                    },
+                    {
+                        "pageTitle": "Richard M. Nixon | El Imperio de Calib\u00e1n",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://norbertobarreto.files.wordpress.com/2019/10/v4.jpg?w=584"
+                            }
+                        ],
+                        "url": "https://norbertobarreto.blog/tag/richard-m-nixon/"
+                    },
+                    {
+                        "pageTitle": "Julian Zelizer on Twitter: &quot;With the Band, Bob Dylan captured the ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pbs.twimg.com/media/DzdnJR0X0AA2qB3.jpg"
+                            }
+                        ],
+                        "url": "https://twitter.com/julianzelizer/status/1096459700613206016"
+                    },
+                    {
+                        "pageTitle": "Ummagumma: October 2017",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://4.bp.blogspot.com/-YscSEiwR-zs/WdOpWcrY1nI/AAAAAAAADwY/mDNb_SyhTQoA2Tb2uXFnbVav_7HWl7EnACEwYBhgL/s1600/IMG_2308.PNG"
+                            }
+                        ],
+                        "url": "http://uhmaguhma.blogspot.com/2017/10/"
+                    },
+                    {
+                        "pageTitle": "What <b>Kent State</b> Teaches Us About Free Speech | Williamson ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://www.theadvocates.org/wp-content/uploads/2017/06/time-100-influential-photos-john-paul-filo-kent-state-shootings-65.jpg"
+                            }
+                        ],
+                        "url": "http://www.txwclp.org/2017/06/what-kent-state-teaches-us-about-free-speech/"
+                    },
+                    {
+                        "pageTitle": "Watching \"The Vietnam War\" - Ummagumma",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://4.bp.blogspot.com/-YscSEiwR-zs/WdOpWcrY1nI/AAAAAAAADwY/mDNb_SyhTQoA2Tb2uXFnbVav_7HWl7EnACEwYBhgL/s1600/IMG_2308.PNG"
+                            }
+                        ],
+                        "url": "http://uhmaguhma.blogspot.com/2017/10/watching-vietnam-war.html"
+                    },
+                    {
+                        "pageTitle": "What do you think about Kaitlin Bennett bringing an AR-10 to ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://qph.fs.quoracdn.net/main-qimg-4f6428e825d862555bece551f4363af5"
+                            }
+                        ],
+                        "url": "https://www.quora.com/What-do-you-think-about-Kaitlin-Bennett-bringing-an-AR-10-to-graduation"
+                    },
+                    {
+                        "pageTitle": "Why can&#39;t life be like the &#39;60s and the &#39;70s? I see shows like Room ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://qph.fs.quoracdn.net/main-qimg-7555586b29b12f1eb37ec15ba24dffba.webp"
+                            }
+                        ],
+                        "url": "https://www.quora.com/Why-cant-life-be-like-the-%E2%80%9860s-and-the-%E2%80%9870s-I-see-shows-like-Room-222-Julia-Happy-Days-Flipper-Laugh-In-Carol-Burnett-and-times-so-much-better"
+                    },
+                    {
+                        "pageTitle": "shooting Archives - Arab American News",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://www.arabamericannews.com/wp-content/uploads/2018/02/Mary-Ann-Vecchio-screams-as-she-kneels-over-the-body-of-Jeffrey-Miller-during-an-anti-war-demonstration-at-Kent-State-University-Ohio-May-4-1970.-370x223.jpg"
+                            }
+                        ],
+                        "url": "https://www.arabamericannews.com/tag/shooting/"
+                    },
+                    {
+                        "pageTitle": "Why didn&#39;t anyone destroy/push back against the counterculture in ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://qph.fs.quoracdn.net/main-qimg-4f6428e825d862555bece551f4363af5"
+                            }
+                        ],
+                        "url": "https://www.quora.com/Why-didnt-anyone-destroy-push-back-against-the-counterculture-in-the-60s"
+                    },
+                    {
+                        "pageTitle": "/tv/ - Television &amp; Film \u00bb Thread #79711380 - 4plebs",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://i.4pcdn.org/tv/1487855633357.jpg"
+                            }
+                        ],
+                        "url": "http://archive.4plebs.org/tv/thread/79711380/"
+                    },
+                    {
+                        "pageTitle": "4 Hrs on This Day in 1970 the <b>Kent State</b> Massacre Took Place ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pics.me.me/4-hrs-on-this-day-in-1970-the-kent-state-21314403.png"
+                            }
+                        ],
+                        "url": "https://me.me/i/4-hrs-on-this-day-in-1970-the-kent-state-14015884"
+                    },
+                    {
+                        "pageTitle": "ONE MAN AGAINST THE WORLD: THE TRAGEDY OF RICHARD ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i1.wp.com/i2.cdn.turner.com/cnnnext/dam/assets/130605144602-12-protests-horizontal-large-gallery.jpg"
+                            }
+                        ],
+                        "url": "https://docs-books.com/2015/07/21/one-man-against-the-world-the-tragedy-of-richard-nixon-by-tim-weiner/"
+                    },
+                    {
+                        "pageTitle": "szfreiberger | Doc&#39;s Books | Page 28",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i1.wp.com/i2.cdn.turner.com/cnnnext/dam/assets/130605144602-12-protests-horizontal-large-gallery.jpg"
+                            }
+                        ],
+                        "url": "https://docs-books.com/author/szfreiberger/page/28/"
+                    },
+                    {
+                        "pageTitle": "Andrew Yu Cao (@andreww_cao) | Twitter",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pbs.twimg.com/media/EJK2hHOWwAAmDex.jpg"
+                            }
+                        ],
+                        "url": "https://twitter.com/andreww_cao"
+                    },
+                    {
+                        "pageTitle": "I&#39;m The Devil, and I&#39;ve Come To Do The Devil&#39;s Work: Charlie ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://www.cvltnation.com/wp-content/uploads/2017/11/time-100-influential-photos-john-paul-filo-kent-state-shootings-65-750x504.jpg"
+                            }
+                        ],
+                        "url": "https://cvltnation.com/im-devil-ive-come-devils-work-charlie-manson-americas-dark-reflection-2/"
+                    },
+                    {
+                        "pageTitle": "July | 2015 | Doc&#39;s Books",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i1.wp.com/i2.cdn.turner.com/cnnnext/dam/assets/130605144602-12-protests-horizontal-large-gallery.jpg"
+                            }
+                        ],
+                        "url": "https://docs-books.com/2015/07/"
+                    },
+                    {
+                        "pageTitle": "Hearne Christopher, Uncensored | Page 10 - KC Confidential",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://www.kcconfidential.com/wp-content/uploads/2018/12/time-100-influential-photos-john-paul-filo-kent-state-shootings-65.jpg"
+                            }
+                        ],
+                        "url": "http://www.kcconfidential.com/page/10/?page=lifestyle"
+                    },
+                    {
+                        "pageTitle": "111134 - /t/ - Talk",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://www.operatorchan.org/t/src/150873187469.png"
+                            }
+                        ],
+                        "url": "http://www.operatorchan.org/t/res/111134.html"
+                    },
+                    {
+                        "pageTitle": "Hearne Christopher, Uncensored | Page 11 - KC Confidential",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://www.kcconfidential.com/wp-content/uploads/2018/12/time-100-influential-photos-john-paul-filo-kent-state-shootings-65.jpg"
+                            }
+                        ],
+                        "url": "http://www.kcconfidential.com/page/11/?page=news"
+                    },
+                    {
+                        "pageTitle": "Latest Posts | Doc&#39;s Books | A window into Doc Freiberger&#39;s library ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i1.wp.com/i2.cdn.turner.com/cnnnext/dam/assets/130605144602-12-protests-horizontal-large-gallery.jpg"
+                            }
+                        ],
+                        "url": "https://docs-books.com/about/latest-posts/page/28/"
+                    },
+                    {
+                        "pageTitle": "4 Hrs on This Day in 1970 the <b>Kent State</b> Massacre Took Place ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pics.ballmemes.com/4-hrs-on-this-day-in-1970-the-kent-state-21314403.png"
+                            }
+                        ],
+                        "url": "https://ballmemes.com/i/4-hrs-on-this-day-in-1970-the-kent-state-14015884"
+                    },
+                    {
+                        "pageTitle": "/t/ - Talk - OPERATORchan",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://www.operatorchan.org/t/src/150873187469.png"
+                            }
+                        ],
+                        "url": "http://www.operatorchan.org/t/5.html"
+                    },
+                    {
+                        "pageTitle": "<b>Kent State</b> Massacre - AwwMemes.com",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pics.awwmemes.com/4-hrs-on-this-day-in-1970-the-kent-state-21314403.png"
+                            }
+                        ],
+                        "url": "https://awwmemes.com/t/kent-state-massacre?s=new"
+                    },
+                    {
+                        "pageTitle": "Why Are Students Angry? Is Conflict Over Public-Funded Higher ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://www.outlookindia.com/public/uploads/editor/2019-11-28/1574934090.jpg"
+                            }
+                        ],
+                        "url": "https://www.outlookindia.com/magazine/story/india-news-why-are-students-angry-is-conflict-over-public-funded-higher-education-only-reason/302422"
+                    },
+                    {
+                        "pageTitle": "92 Best Spring! images | Happy mom day, Spring, Save our earth",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.pinimg.com/236x/05/cf/77/05cf773465f6906515c8d1c398645d0d.jpg"
+                            }
+                        ],
+                        "url": "https://www.pinterest.com/angeld1952/spring/"
+                    },
+                    {
+                        "pageTitle": "Ohio by Neil Young - YouTube",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.ytimg.com/vi/YCskAEOvZSY/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBCZ8UnBltF65rkQJQF69LdRToohQ"
+                            }
+                        ],
+                        "url": "https://www.youtube.com/watch?v=YCskAEOvZSY"
+                    },
+                    {
+                        "pageTitle": "Lowtax&#39;s Time Machine or Photoshop Historical Inaccuracies - The ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.imgur.com/GUZv3tug.png"
+                            }
+                        ],
+                        "url": "https://forums.somethingawful.com/showthread.php?threadid=3865596"
+                    },
+                    {
+                        "pageTitle": "3250 Best Because It Matters ! images | Core beliefs, Politics ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.pinimg.com/236x/f3/e4/3b/f3e43b5cd4154ea7ad8d47c1d291ecbc--mr-trump-donald-trump.jpg"
+                            }
+                        ],
+                        "url": "https://www.pinterest.com/joyannnel/because-it-matters/"
+                    },
+                    {
+                        "pageTitle": "Thread by @docrocktex26: &quot;Translation: American law enforcement ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pbs.twimg.com/media/DV4Vr3_VwAAf-Rp.jpg"
+                            }
+                        ],
+                        "url": "https://threadreaderapp.com/thread/963120185375850496.html"
+                    },
+                    {
+                        "pageTitle": "34 Best Trump images | Politics, Republican party, Words - Pinterest",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.pinimg.com/236x/05/cf/77/05cf773465f6906515c8d1c398645d0d.jpg"
+                            }
+                        ],
+                        "url": "https://www.pinterest.com/corinarey/trump/"
+                    },
+                    {
+                        "pageTitle": "Youth in Revolt: A Look at Youth Movements that Changed History ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://assets.rbl.ms/17634929/origin.jpg"
+                            }
+                        ],
+                        "url": "https://www.libertyproject.com/youth-movements-revolt-changed-history-2566792210.html"
+                    },
+                    {
+                        "fullMatchingImages": [
+                            {
+                                "url": "https://cdn.counter-currents.com/wp-content/uploads/2016/03/donald-trump-protesters-strecther-e1458216159308.jpg"
+                            }
+                        ],
+                        "pageTitle": "Ted Sallis, &quot;You Say You Want a Revolution&quot; | Counter-Currents ...",
+                        "url": "https://www.counter-currents.com/2016/03/you-say-you-want-a-revolution/"
+                    },
+                    {
+                        "pageTitle": "Lowtax&#39;s Time Machine or Photoshop Historical Inaccuracies - The ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.imgur.com/GUZv3tug.png"
+                            }
+                        ],
+                        "url": "https://forums.somethingawful.com/showthread.php?threadid=3865596&userid=0&perpage=40&pagenumber=2"
+                    },
+                    {
+                        "pageTitle": "Change in American Society - ATTARDI SOCIAL STUDIES",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://attardisocialstudies.weebly.com/uploads/1/0/9/8/109876644/130830222444-10-iconic-kent-state-horizontal-large-gallery_orig.jpg"
+                            }
+                        ],
+                        "url": "https://attardisocialstudies.weebly.com/change-in-american-society.html"
+                    },
+                    {
+                        "pageTitle": "The altered picture of the <b>Kent State</b> shooting, May 4, 1970 The ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i0.wp.com/66.media.tumblr.com/8c481a1b6525e77968cc65da1a66c967/tumblr_pr0m05Nqcn1s7e5k5o1_1280.jpg?resize=350%2C200&ssl=1"
+                            }
+                        ],
+                        "url": "https://history.blogberth.com/2017/06/01/the-altered-picture-of-the-kent-state-shooting-may-4-1970-the/"
+                    },
+                    {
+                        "fullMatchingImages": [
+                            {
+                                "url": "https://i.pinimg.com/474x/fd/62/e0/fd62e0704cf6404b76b81d79b5fe82e7.jpg"
+                            }
+                        ],
+                        "pageTitle": "Palin/Trump...idiots. - Pinterest",
+                        "url": "https://www.pinterest.com/eapusps/palintrumpidiots/"
+                    },
+                    {
+                        "pageTitle": "FARK.com: (8536509) Captain Steroid presents his 5th Annual X ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://fark-usrimg-850.nyc3.digitaloceanspaces.com/l/l9/fark_l9VX9YnQ0us4ULKXNU-VZ-JNp3s.jpg?AWSAccessKeyId=HBAYEKZHGUB4NAYQBVSQ&Expires=1575262800&Signature=9R1dQLThbLQ%2FC6fxiOaOSMePBGs%3D"
+                            },
+                            {
+                                "url": "https://fark-usrimg-full.nyc3.digitaloceanspaces.com/l/l9/fark_l9VX9YnQ0us4ULKXNU-VZ-JNp3s.jpg?AWSAccessKeyId=HBAYEKZHGUB4NAYQBVSQ&Expires=1575262800&Signature=f8uENqcTAXttR4y%2F5Yp2ljiShqI%3D"
+                            }
+                        ],
+                        "url": "https://www.fark.com/comments/8536509/94620205/Captain-Steroid-presents-his-5th-Annual-X-Mas-Photoshop-Contest-Theme-Drunken-Santa-Difficulty-NO-TFers-Winner-gets-one-month-of-FREE-TotalFark-Contest-ends-at-11pm-CST-tonight-Merry-Christmas-one-all-"
+                    },
+                    {
+                        "pageTitle": "4 Hrs on This Day in 1970 the <b>Kent State</b> Massacre Took Place ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pics.esmemes.com/4-hrs-on-this-day-in-1970-the-kent-state-21314403.png"
+                            }
+                        ],
+                        "url": "https://esmemes.com/i/4-hrs-on-this-day-in-1970-the-kent-state-14015884"
+                    },
+                    {
+                        "pageTitle": "<b>Kent State</b> Massacre - Sizzle",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pics.onsizzle.com/4-hrs-on-this-day-in-1970-the-kent-state-21314403.png"
+                            }
+                        ],
+                        "url": "https://onsizzle.com/t/kent-state-massacre?s=new"
+                    },
+                    {
+                        "pageTitle": "70&#39;S Archives \u2022 Photostories - photostories.photography",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://photostories.photography/wp-content/uploads/2017/02/130830222444-10-iconic-kent-state-horizontal-large-gallery-500x339.png"
+                            }
+                        ],
+                        "url": "https://photostories.photography/tag/70s/"
+                    },
+                    {
+                        "pageTitle": "PEOPLE Archives \u2022 Photostories - photostories.photography",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://photostories.photography/wp-content/uploads/2017/02/130830222444-10-iconic-kent-state-horizontal-large-gallery-500x339.png"
+                            }
+                        ],
+                        "url": "https://photostories.photography/tag/people/"
+                    },
+                    {
+                        "pageTitle": "One Hundred Love Sonnets: XVII \u2022 Photostories",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://photostories.photography/wp-content/uploads/2017/02/130830222444-10-iconic-kent-state-horizontal-large-gallery-300x204.png"
+                            }
+                        ],
+                        "url": "https://photostories.photography/one-hundred-love-sonnets-xvii/"
+                    },
+                    {
+                        "pageTitle": "Some of those fucking Boomers fought and died for rights you enjoy ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://media.makeameme.org/created/some-of-those-1b79b2590a.jpg"
+                            }
+                        ],
+                        "url": "https://makeameme.org/meme/some-of-those-1b79b2590a"
+                    },
+                    {
+                        "pageTitle": "Our Hope \u2022 Photostories - photostories.photography",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://photostories.photography/wp-content/uploads/2017/02/130830222444-10-iconic-kent-state-horizontal-large-gallery-300x204.png"
+                            }
+                        ],
+                        "url": "https://photostories.photography/our-hope/"
+                    },
+                    {
+                        "pageTitle": "Lowtax&#39;s Time Machine or Photoshop Historical Inaccuracies - The ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.imgur.com/GUZv3tug.png"
+                            }
+                        ],
+                        "url": "https://forums.somethingawful.com/showthread.php?threadid=3865596&userid=0&perpage=40&pagenumber=1"
+                    },
+                    {
+                        "pageTitle": "Vietnam war music, campus shooting - ThingLink",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://cdn.thinglink.me/api/image/k75bsVmJ9vo9TVrJVt4D6vT74cVUXjtoKez3CZPPbCELJyBsrDay1po3oXtRDBzbf9D5WjtC8FjvfT2JgQg34N6RTHHV6orCXu7j9Syuz6V4udeer1bbm5v5qhvNUaiJNBuRDEkL8FAZgK5zQNydVR8Wim8seERfL/320/320/scaledown"
+                            }
+                        ],
+                        "url": "https://www.thinglink.com/scene/630064132699193344"
+                    },
+                    {
+                        "pageTitle": "/co/ - Comics &amp; Cartoons \u00bb Thread #99311962 - Fireden.net",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://img.fireden.net/co/image/1521/39/1521395621290.jpg"
+                            }
+                        ],
+                        "url": "https://www.fireden.net/co/thread/99311962/"
+                    },
+                    {
+                        "pageTitle": "4 Hrs on This Day in 1970 the <b>Kent State</b> Massacre Took Place ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pics.me.me/4-hrs-on-this-day-in-1970-the-kent-state-21314403.png"
+                            }
+                        ],
+                        "url": "https://onsizzle.com/i/4-hrs-on-this-day-in-1970-the-kent-state-14015884"
+                    },
+                    {
+                        "pageTitle": "arab spring - Liberty Project",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://assets.rbl.ms/17634929/origin.jpg"
+                            }
+                        ],
+                        "url": "https://www.libertyproject.com/tag/arab-spring"
+                    },
+                    {
+                        "pageTitle": "Entertainment* - PhotographyTalk.com",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://static.photocdn.pt/images/articles/2019/08/28/most_famous_pictures.jpg"
+                            }
+                        ],
+                        "url": "https://www.photographytalk.com/component/tags/tag/36"
+                    },
+                    {
+                        "pageTitle": "tiananmem square - Liberty Project",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://assets.rbl.ms/17634929/origin.jpg"
+                            }
+                        ],
+                        "url": "https://www.libertyproject.com/tag/tiananmem-square"
+                    },
+                    {
+                        "pageTitle": "Nixon. - ppt download - SlidePlayer",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://slideplayer.com/slide/4296378/14/images/19/The+War+at+Home%2C+Spring+1970+President+Nixon%E2%80%99s.+order+to+invade+Cambodia.+sparked+angry+protests+on..jpg"
+                            }
+                        ],
+                        "url": "https://slideplayer.com/slide/4296378/"
+                    },
+                    {
+                        "pageTitle": "/co/ - Comics &amp; Cartoons \u00bb Thread #99311962 - Fireden.net",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://img.fireden.net/co/image/1521/39/1521395621290.jpg"
+                            }
+                        ],
+                        "url": "https://boards.fireden.net/co/last/50/99311962/"
+                    },
+                    {
+                        "pageTitle": "Don&#39;t be stupid, be a smarty. Come and join Trump&#39;s Republican Party.",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://whatwouldjackdo.net/images/ksutrump.jpg"
+                            }
+                        ],
+                        "url": "http://whatwouldjackdo.net/2016/03/dont-be-stupid-be-a-smarty-come-and-join-trumps-republican-party.html"
+                    },
+                    {
+                        "pageTitle": "222 best r/democraticsocialism images on Pholder | Why We Must ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i.redd.it/jyatfpfa5wv01.jpg"
+                            }
+                        ],
+                        "url": "https://pholder.com/r/democraticsocialism/?page=2"
+                    },
+                    {
+                        "pageTitle": "My Lai Massacre. - ppt video online download - SlidePlayer",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://slideplayer.com/101/17363128/big_thumb.jpg"
+                            }
+                        ],
+                        "url": "https://slideplayer.com/slide/9836550/"
+                    },
+                    {
+                        "pageTitle": "\u986f\u5f71PhotogStory - &lt;<b>Kent State</b> Shootings&gt; by <b>John Filo</b> Marc ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2500843563281279"
+                            }
+                        ],
+                        "url": "https://www.facebook.com/PhotogStory/posts/kent-state-shootings-by-john-filomarc-riboud%E9%82%A3%E5%BC%B5%E9%AE%AE%E8%8A%B1%E8%88%87%E5%88%BA%E5%88%80%E7%85%A7%E7%89%87%E6%88%90%E7%82%BA%E7%B6%93%E5%85%B8%E5%8F%A6%E4%B8%80%E5%BC%B5%E7%94%B1%E7%BE%8E%E5%9C%8B%E6%94%9D%E5%BD%B1%E5%B8%ABjohn-filo%E6%8B%8D%E6%94%9D%E7%9A%84%E5%8F%8D%E8%B6%8A/2500844736614495/"
+                    },
+                    {
+                        "pageTitle": "\u6709\u53f2\u4ee5\u6765\u6700\u5177\u5f71\u54cd\u529b\u7684100\u5f20\u56fe\u7247\u2014\u2014\uff08\u67d2\uff09 - \u77e5\u4e4e",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pic2.zhimg.com/v2-1b786836687e19c460c131d7fe05210d_b.jpg"
+                            }
+                        ],
+                        "url": "https://zhuanlan.zhihu.com/p/37310833"
+                    },
+                    {
+                        "pageTitle": "La fusillade de l&#39;universit\u00e9 de l&#39;Etat de <b>Kent</b> par <b>John</b> Paul <b>Filo</b> ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://insolitphoto.net/wp-content/uploads/sites/203/2019/04/7-2.jpg"
+                            }
+                        ],
+                        "url": "https://insolitphoto.net/la-fusillade-de-luniversite-de-letat-de-kent-par-john-paul-filo/"
+                    },
+                    {
+                        "pageTitle": "Corpus: Photographie ic\u00f4nes timeline | Timetoast timelines",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/15013843/image/original-51e5920d0d370b3b48e2f6ee2f4ff0ab.png"
+                            }
+                        ],
+                        "url": "https://www.timetoast.com/timelines/corpus-photographie-icones"
+                    },
+                    {
+                        "pageTitle": "Masakr na <b>Kent State</b>: Ameri\u010dt\u00ed voj\u00e1ci vra\u017edili neozbrojen\u00e9 studenty ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://refstatic.sk/article/masakr-na-kent-state-americti-vojaci-vrazdili-neozbrojene-studenty-a-prezidenta-evakuovali-z-bileho-domu~8d331780730920de7fdd.jpg?is=919x570c&ic=0x82x1607x996&c=2w&s=179b823ba5c8b49687b726d4d81ac4d65b353f3f6a8fa8228afe76849daee979"
+                            }
+                        ],
+                        "url": "https://refresher.cz/65285-Masakr-na-Kent-State-Americti-vojaci-vrazdili-neozbrojene-studenty-a-prezidenta-evakuovali-z-Bileho-domu"
+                    },
+                    {
+                        "pageTitle": "Dzi\u015b przypada 49. rocznica Masakry w... - Rok Antyfaszystowski ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=687062405061748"
+                            }
+                        ],
+                        "url": "https://www.facebook.com/rok.antyfaszystowski/photos/dzi%C5%9B-przypada-49-rocznica-masakry-w-kent-state-w-po%C5%82udnie-4-maja-1970-roku-po-tr/687062405061748/"
+                    },
+                    {
+                        "pageTitle": "\u9bae\u82b1\u8207\u523a\u5200\u548c\u5e73\u8207\u66b4\u529b- \u986f\u5f71PhotogStory - Medium",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://miro.medium.com/max/2400/1*kAkVevgfGrNJQFDLl3NwRQ.jpeg"
+                            }
+                        ],
+                        "url": "https://medium.com/@Photogstory/%E9%AE%AE%E8%8A%B1%E8%88%87%E5%88%BA%E5%88%80-%E6%88%B0%E7%88%AD%E8%88%87%E6%9A%B4%E5%8A%9B-c97061fa9c61"
+                    },
+                    {
+                        "pageTitle": "Teenager Mary Ann Vecchio screams as she kneels over the body ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://media.gettyimages.com/photos/teenager-mary-ann-vecchio-screams-as-she-kneels-over-the-body-of-kent-picture-id90256495"
+                            }
+                        ],
+                        "url": "https://www.gettyimages.com.br/detail/foto-jornal%C3%ADstica/teenager-mary-ann-vecchio-screams-as-she-kneels-over-foto-jornal%C3%ADstica/90256495?language=fr"
+                    },
+                    {
+                        "pageTitle": "\u6709\u53f2\u4ee5\u6765\u6700\u5177\u5f71\u54cd\u529b\u7684100\u5f20\u56fe\u7247\u2014\u2014\uff08\u67d2\uff09 - \u77e5\u4e4e- \u77e5\u4e4e",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://pic2.zhimg.com/v2-1b786836687e19c460c131d7fe05210d_b.jpg"
+                            }
+                        ],
+                        "url": "https://www.zhihu.com/appview/p/37310833"
+                    },
+                    {
+                        "pageTitle": "\u53f2\u4e0a\u6700\u6709\u5f71\u54cd\u529b\u7684100\u5e45\u7167\u7247\uff08\u4e0b\uff09-\u5f71\u50cf\u56fd\u9645\u7f51",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://cn.photoint.net/uploads/201612/15/1481780278546739.jpg"
+                            }
+                        ],
+                        "url": "http://cn.photoint.net/detail_news_107630_2.html"
+                    },
+                    {
+                        "pageTitle": "El Hurgador [Arte en la Red]: Aniversarios Fotograf\u00eda (CXXXVII ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://4.bp.blogspot.com/-_D-438fsth8/V4egwJYQvAI/AAAAAAABrAg/MOKuBY_CsI8E5pS6FPMowFxvdbxSkYLTwCLcB/s1600/160821-John%2BPaul%2BFilo%252C%2BKent%2BState%2BMassacre%2B%25281970%2529-ok.jpg"
+                            }
+                        ],
+                        "url": "http://elhurgador.blogspot.com/2016/08/aniversarios-fotografia-cxxxvii-agosto.html"
+                    },
+                    {
+                        "pageTitle": "\u300e\u56fe\u96c6\u300f\u65f6\u4ee3\u5468\u520a\uff1a\u53f2\u4e0a\u767e\u5e45\u6700\u6709\u5f71\u54cd\u529b\u7167\u7247\u96c6- \u65b0\u6444\u5f71",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://image1.nphoto.net/news/image/201611/433f9e50d3ef781f.jpg"
+                            }
+                        ],
+                        "url": "http://www.nphoto.net/news/2016-11/23/b8513485a5163e3f7.shtml"
+                    },
+                    {
+                        "pageTitle": "<b>Kent State</b> shootings - Facebook",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=687062405061748"
+                            }
+                        ],
+                        "url": "https://m.latest.facebook.com/profile.php?id=105587096140960"
+                    },
+                    {
+                        "pageTitle": "Las 100 fotos m\u00e1s influyentes seg\u00fan la revista Time - El Observador",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://media.cdnp.elobservador.com.uy/adjuntos/181/imagenes/013/744/0013744047.png?&cw=350"
+                            }
+                        ],
+                        "url": "https://www.elobservador.com.uy/nota/las-100-fotos-mas-influyentes-segun-la-revista-time-2016112314550"
+                    },
+                    {
+                        "pageTitle": "Masaker na <b>Kent State</b>: Americk\u00ed vojaci vra\u017edili neozbrojen\u00fdch ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://refstatic.sk/article/masakr-na-kent-state-americti-vojaci-vrazdili-neozbrojene-studenty-a-prezidenta-evakuovali-z-bileho-domu~8d331780730920de7fdd.jpg?is=919x570c&ic=0x82x1607x996&c=2w&s=179b823ba5c8b49687b726d4d81ac4d65b353f3f6a8fa8228afe76849daee979"
+                            }
+                        ],
+                        "url": "https://refresher.sk/65285-Masaker-na-Kent-State-Americki-vojaci-vrazdili-neozbrojenych-studentov-a-prezidenta-evakuovali-z-Bieleho-domu"
+                    },
+                    {
+                        "pageTitle": "Nh\u1eefng b\u1ee9c \u1ea3nh bi\u1ec3u t\u01b0\u1ee3ng cho chi\u1ebfn tranh Vi\u1ec7t Nam - VnExpress",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i-vnexpress.vnecdn.net/2015/04/17/ffffffffffffffffffff-1429270310_m_460x0.jpg"
+                            }
+                        ],
+                        "url": "https://vnexpress.net/the-gioi/nhung-buc-anh-bieu-tuong-cho-chien-tranh-viet-nam-3201377.html"
+                    },
+                    {
+                        "pageTitle": "\u300e\u56fe\u96c6\u300f\u65f6\u4ee3\u5468\u520a\uff1a\u53f2\u4e0a\u767e\u5e45\u6700\u6709\u5f71\u54cd\u529b\u7167\u7247\u96c6- \u6570\u7801\u76f8\u673a\u5927\u5168\u76f8\u673a\u8d44\u6599 ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://image1.nphoto.net/news/image/201611/433f9e50d3ef781f.jpg"
+                            }
+                        ],
+                        "url": "http://dc.nphoto.net/news/2016-11/23/b8513485a5163e3f7.shtml"
+                    },
+                    {
+                        "pageTitle": "MANCHANDO LIENZOS MANEJANDO COLORES: mayo 2018",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://1.bp.blogspot.com/-gH2qFb9qbsE/WoaonDtNIzI/AAAAAAAAHw0/Oz0acmSsvFEVZEDsYoYlBpaV5BJodRhtQCEwYBhgL/s1600/John%2BFilo%2BMasacre%2Bde%2BKent%2BState.jpg"
+                            }
+                        ],
+                        "url": "http://luciarodriguezvicario.blogspot.com/2018/05/"
+                    },
+                    {
+                        "pageTitle": "Page 2 \u2013 Plus qu'un simple clich\u00e9\u2026 - Insolitphoto.net",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://insolitphoto.net/wp-content/uploads/sites/203/2019/04/7-2.jpg"
+                            }
+                        ],
+                        "url": "https://insolitphoto.net/page/2/"
+                    },
+                    {
+                        "pageTitle": "\u65f6\u4ee3\u5468\u520a\uff1a\u53f2\u4e0a\u767e\u5e45\u6700\u6709\u5f71\u54cd\u529b\u7167\u7247\u96c6- \u63a8\u8350- \u65b0\u6e56\u5357",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://image1.nphoto.net/news/image/201611/433f9e50d3ef781f.jpg"
+                            }
+                        ],
+                        "url": "http://hunan.voc.com.cn/xhn/article/201701/201701191106102416.html"
+                    },
+                    {
+                        "pageTitle": "[\u8f6c\u8f7d]\u65f6\u4ee3\u5468\u520a\uff1a\u53f2\u4e0a\u767e\u5e45\u6700\u6709\u5f71\u54cd\u529b\u7167\u7247\u96c6\u4e4b\u4e8c\uff0850\u5e45)_\u7c4d\u96c5\u8339_\u65b0\u6d6a ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://s13.sinaimg.cn/mw690/001GbUXMzy76M8aacVK7c&690"
+                            }
+                        ],
+                        "url": "http://blog.sina.com.cn/s/blog_135e860320102xtf4.html"
+                    },
+                    {
+                        "pageTitle": "\u65f6\u4ee3\u5468\u520a\u516c\u5e03\u7684\u4e16\u754c\u6444\u5f71\u53f2\u4e0a\u6700\u5177\u5f71\u54cd\u529b\u7684100\u5f20\u7167\u7247- \u6bcf\u65e5\u5934\u6761",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i1.kknews.cc/SIG=22t5nu7/ctp-vzntr/1527039849911os8qsq367s.jpg"
+                            }
+                        ],
+                        "url": "https://kknews.cc/zh-my/photography/qn9qvvb.html"
+                    },
+                    {
+                        "pageTitle": "\u65f6\u4ee3\u5468\u520a - \u534e\u58f0\u8bba\u575b",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://image.hnol.net/c/2016-11/21/12/20161121123337179-167450.jpg"
+                            }
+                        ],
+                        "url": "https://bbs.voc.com.cn/viewthread.php?action=printable&tid=7546011&page=5"
+                    },
+                    {
+                        "pageTitle": "\u65f6\u4ee3\u5468\u520a\u516c\u5e03\u7684\u4e16\u754c\u6444\u5f71\u53f2\u4e0a\u6700\u5177\u5f71\u54cd\u529b\u7684100\u5f20\u7167\u7247- \u6bcf\u65e5\u5934\u6761",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i1.kknews.cc/SIG=22t5nu7/ctp-vzntr/1527039849911os8qsq367s.jpg"
+                            }
+                        ],
+                        "url": "https://kknews.cc/zh-cn/photography/qn9qvvb.html"
+                    },
+                    {
+                        "pageTitle": "El objetivo de este blog es fomentar el ... - El Imperio de Calib\u00e1n",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://norbertobarreto.files.wordpress.com/2019/10/v4.jpg?w=584"
+                            }
+                        ],
+                        "url": "https://norbertobarreto.blog/page/2/"
+                    },
+                    {
+                        "pageTitle": "Norberto Barreto Vel\u00e1zquez | El Imperio de Calib\u00e1n | P\u00e1gina 2",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://norbertobarreto.files.wordpress.com/2019/10/v4.jpg?w=584"
+                            }
+                        ],
+                        "url": "https://norbertobarreto.blog/author/nbarreto/page/2/"
+                    },
+                    {
+                        "pageTitle": "\u6642\u4ee3\u5468\u520a\u516c\u5e03\u7684\u4e16\u754c\u651d\u5f71\u53f2\u4e0a\u6700\u5177\u5f71\u97ff\u529b\u7684100\u5f35\u7167\u7247- \u6bcf\u65e5\u982d\u689d",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i1.kknews.cc/SIG=22t5nu7/ctp-vzntr/1527039849911os8qsq367s.jpg"
+                            }
+                        ],
+                        "url": "https://kknews.cc/photography/qn9qvvb.html"
+                    },
+                    {
+                        "pageTitle": "\u0424\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0438\u0437\u043c\u0435\u043d\u0438\u043b\u0438 \u043c\u0438\u0440: 100 \u0441\u0430\u043c\u044b\u0445 \u0437\u043d\u0430\u0447\u0438\u043c\u044b\u0445 ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://3.404content.com/resize/730x-/1/36/3A/1138245450597139673/fullsize.jpg"
+                            }
+                        ],
+                        "url": "https://foto.temadnya.com/1138245465986042308/fotografii-kotorye-izmenili-mir-100-samyh-znachimyh-snimkov-po-versii-zhurnala-time/"
+                    },
+                    {
+                        "pageTitle": "La guerra de Vietnam, segunda parte | El Imperio de Calib\u00e1n",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://norbertobarreto.files.wordpress.com/2019/10/v4.jpg?w=584"
+                            }
+                        ],
+                        "url": "https://norbertobarreto.blog/2019/10/07/la-guerra-de-vietnam-parte-2/"
+                    },
+                    {
+                        "pageTitle": "\u65f6\u4ee3\u5468\u520a\u516c\u5e03\u7684\u4e16\u754c\u6444\u5f71\u53f2\u4e0a\u6700\u5177\u5f71\u54cd\u529b\u7684100\u5f20\u7167\u7247- \u6bcf\u65e5\u5934\u6761",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i1.kknews.cc/SIG=22t5nu7/ctp-vzntr/1527039849911os8qsq367s.jpg"
+                            }
+                        ],
+                        "url": "https://kknews.cc/zh-sg/photography/qn9qvvb.html"
+                    },
+                    {
+                        "pageTitle": "\u300c \u53f2\u4e0a\u6700\u6709\u5f71\u54cd\u529b\u7684100 \u5f20\u7167\u7247\u300d\u90fd\u5728\u8fd9\u91cc\u4e86\uff01-\u79d1\u6280\u9891\u9053-\u624b\u673a\u641c\u72d0",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://s9.rr.itc.cn/r/wapChange/201611_28_19/a6jxgj2685362821855.jpeg"
+                            }
+                        ],
+                        "url": "https://m.sohu.com/n/474371180/"
+                    },
+                    {
+                        "pageTitle": "ronhaviv - Deskgram",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://instagram.fvno1-1.fna.fbcdn.net/vp/bd761a2f287f9931abf29429db9eebae/5E0D0B24/t51.2885-15/fr/e15/s1080x1080/62234543_458024268076735_2276405536391688824_n.jpg?_nc_ht=instagram.fvno1-1.fna.fbcdn.net"
+                            }
+                        ],
+                        "url": "https://deskgram.net/explore/tags/ronhaviv"
+                    },
+                    {
+                        "pageTitle": "ronhaviv video photos photo image picture pics gif - Instagram-dm.com",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://scontent-lhr8-1.cdninstagram.com/v/t51.2885-15/fr/e15/s1080x1080/62234543_458024268076735_2276405536391688824_n.jpg?_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_cat=107&_nc_ohc=iwxHDy3Jw5wAX_bXBG7&oh=91d15d35d2508aed190209734d00b6f9&oe=5ED2CC24"
+                            }
+                        ],
+                        "url": "https://instagram-dm.com/hashtag/ronhaviv"
+                    },
+                    {
+                        "pageTitle": "\u0417\u0430\u043f\u0438\u0441\u0438 \u0441 \u043c\u0435\u0442\u043a\u043e\u0439 100 \u0441\u0430\u043c\u044b\u0445 \u0437\u043d\u0430\u0447\u0438\u043c\u044b \u0441\u043d\u0438\u043c\u043a\u043e\u0432\u0445 - LiveInternet",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://3.404content.com/resize/730x-/1/36/3A/1138245450597139673/fullsize.jpg"
+                            }
+                        ],
+                        "url": "https://www.liveinternet.ru/users/5006355/tags/100+%F1%E0%EC%FB%F5+%E7%ED%E0%F7%E8%EC%FB+%F1%ED%E8%EC%EA%EE%E2%F5/"
+                    },
+                    {
+                        "pageTitle": "\u101c\u1000\u103a\u101d\u102b\u1038\u1000\u1015\u103a\u1010\u102d\u102f\u1004\u103a \u1015\u103c\u1031\u102c\u1004\u103a\u1038\u1015\u103c\u1014\u103a | Facebook",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2061535777480491"
+                            }
+                        ],
+                        "url": "https://www.facebook.com/media/set/?set=a.1840483309585740.1073741853.1628214740812599&type=3"
+                    },
+                    {
+                        "pageTitle": "Ai primi di maggio \u2013 L&#39;Effetto Lucifero",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://effettolucifero.files.wordpress.com/2016/07/146fd394-0bb7-48a2-a500-b3e71b706149.jpg?w=740"
+                            }
+                        ],
+                        "url": "https://effettolucifero.com/2016/07/07/ai-primi-di-maggio/"
+                    },
+                    {
+                        "pageTitle": "\u0423\u0440\u043e\u043a\u0438 \u0434\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0438: vikond65 \u2014 LiveJournal",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://ic.pics.livejournal.com/vikond65/53941713/889168/889168_original.jpg"
+                            }
+                        ],
+                        "url": "https://vikond65.livejournal.com/749506.html"
+                    },
+                    {
+                        "pageTitle": "\u0416\u0443\u0440\u043d\u0430\u043b Time \u0432\u0438\u0437\u043d\u0430\u0447\u0438\u0432 100 \u043d\u0430\u0439\u0432\u043f\u043b\u0438\u0432\u043e\u0432\u0456\u0448\u0438\u0445 \u0444\u043e\u0442\u043e \u0432 \u0456\u0441\u0442\u043e\u0440\u0456\u0457",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://www.volynnews.com/files/news/2016/11-18/205284/time-100-influential-photos-john-paul-filo-kent-state-shootings-65.jpg"
+                            }
+                        ],
+                        "url": "https://www.volynnews.com/news/world/zhurnal-Time-vyznachyv-100-nayvplyvovishykh-foto-v-istoriyi/"
+                    },
+                    {
+                        "pageTitle": "\u300a\u65f6\u4ee3\u5468\u520a\u300b\u8bc4\u51fa\u300c\u6444\u5f71\u8bde\u751f\u4ee5\u6765\u6700\u6709\u5f71\u54cd\u529b\u7684100\u5f20\u7167\u7247\u300d - \u5317\u65b9\u5934\u6761",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://bfttimg2.hebtv.com/p/2019-01-21/voyuelxgcsp.jpg"
+                            }
+                        ],
+                        "url": "http://m.toutiao.hebtv.com/lishi/bftt534269.html"
+                    },
+                    {
+                        "pageTitle": "\u0634\u0627\u0647\u062f.. \u0635\u0648\u0631 \u062e\u0644\u0651\u062f\u062a \u062d\u0631\u0628 \u0641\u064a\u062a\u0646\u0627\u0645 \u0627\u0644\u0645\u062a\u0648\u062d\u0634\u0629 - CNN Arabic",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://static.arabic.cnn.com/sites/default/files/styles/landscape_1280/public/2015/10/25/images/110875_8.jpg?itok=QryPGJb9"
+                            }
+                        ],
+                        "url": "https://arabic.cnn.com/world/2015/10/25/gallery-iconic-vietnam-war-photos"
+                    },
+                    {
+                        "pageTitle": "\u0444\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0438,\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0438\u0437\u043c\u0435\u043d\u0438\u043b\u0438 \u043c\u0438\u0440. \u041e\u0431\u0441\u0443\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430 LiveInternet ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://3.404content.com/resize/730x-/1/36/3A/1138245450597139673/fullsize.jpg"
+                            }
+                        ],
+                        "url": "https://www.liveinternet.ru/users/5006355/post414530686/"
+                    },
+                    {
+                        "pageTitle": "14 fotos ic\u00f3nicas de protestas alrededor del mundo - Yahoo Noticias",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://s.yimg.com/ny/api/res/1.2/.UDVHkZBAWxHOWGrQNWSDg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQzMA--/https://s.yimg.com/uu/api/res/1.2/PA8aTx07zAebh5nGZQeVhg--~B/aD04NjA7dz0xMjgwO3NtPTE7YXBwaWQ9eXRhY2h5b24-/https://66.media.tumblr.com/7164afa8aed45126cf76a68ac363719e/tumblr_inline_oacsimLOjK1t35chj_1280.jpg"
+                            }
+                        ],
+                        "url": "https://es-us.noticias.yahoo.com/14-fotos-ic%C3%B3nicas-protestas-mundo-113857336.html"
+                    },
+                    {
+                        "pageTitle": "\u0423\u0440\u043e\u043a\u0438 \u0434\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0438 | \u0411\u043b\u043e\u0433 Beria | \u041a\u041e\u041d\u0422",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://ic.pics.livejournal.com/vikond65/53941713/889168/889168_original.jpg"
+                            }
+                        ],
+                        "url": "https://cont.ws/post/935357"
+                    },
+                    {
+                        "pageTitle": "14 fotos ic\u00f3nicas de protestas alrededor del mundo - Yahoo Noticias",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://s.yimg.com/ny/api/res/1.2/jbc_45SIX_gsJ.si3OykZg--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9MTI4MDtoPTk2MDtpbD1wbGFuZQ--/https://66.media.tumblr.com/7164afa8aed45126cf76a68ac363719e/tumblr_inline_oacsimLOjK1t35chj_1280.jpg"
+                            }
+                        ],
+                        "url": "https://es-us.noticias.yahoo.com/14-fotos-ic%C3%B3nicas-protestas-mundo-113857336/photo-los-egipcios-ocupan-la-plaza-1470052584619.html"
+                    },
+                    {
+                        "pageTitle": "Ohio - \u0391\u03c6\u03b9\u03ad\u03c1\u03c9\u03bc\u03b1 - \u03a3\u03b1\u03bd \u03a3\u03ae\u03bc\u03b5\u03c1\u03b1 .gr",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://cdn.sansimera.gr/media/photos/main/lg/Ohio-1970.jpg"
+                            }
+                        ],
+                        "url": "https://www.sansimera.gr/articles/622"
+                    },
+                    {
+                        "pageTitle": "\u1ea2nh \u0111\u1eaft gi\u00e1: Nh\u1eefng kho\u1ea3nh kh\u1eafc kh\u00f3 qu\u00ean c\u1ee7a lo\u00e0i ng\u01b0\u1eddi - B\u00e1o ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://photo-2-baomoi.zadn.vn/w700_r1/17/06/19/139/22562680/7_132147.jpg"
+                            }
+                        ],
+                        "url": "https://m.baomoi.com/anh-dat-gia-nhung-khoanh-khac-kho-quen-cua-loai-nguoi/c/22562680.epi"
+                    },
+                    {
+                        "pageTitle": "\u5386\u53f2\u4e0a\u6700\u5177\u5f71\u54cd\u529b\u7684\u7167\u7247\uff0c\u80cc\u540e\u7684\u6545\u4e8b\u6539\u53d8\u4e86\u4e16\u754c\uff01-\u65b0\u95fb\u9891\u9053-\u624b\u673a\u641c\u72d0",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://s9.rr.itc.cn/r/wapChange/20174_17_12/a1konm8027756967542.jpeg"
+                            }
+                        ],
+                        "url": "https://m.sohu.com/n/488915166/"
+                    },
+                    {
+                        "pageTitle": "Salvador Allende est\u00e1 en las 100 fotos m\u00e1s influyentes de la historia ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i2.wp.com/pousta.com/wp-content/uploads/2016/11/dead-time-1.png?resize=1200%2C809"
+                            }
+                        ],
+                        "url": "https://pousta.com/salvador-allende-esta-las-100-fotos-mas-influyentes-la-historia-segun-la-revista-time/"
+                    },
+                    {
+                        "pageTitle": "14 fotos ic\u00f3nicas de protestas alrededor del mundo - Yahoo Noticias",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://s.yimg.com/ny/api/res/1.2/.UDVHkZBAWxHOWGrQNWSDg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQzMA--/https://s.yimg.com/uu/api/res/1.2/PA8aTx07zAebh5nGZQeVhg--~B/aD04NjA7dz0xMjgwO3NtPTE7YXBwaWQ9eXRhY2h5b24-/https://66.media.tumblr.com/7164afa8aed45126cf76a68ac363719e/tumblr_inline_oacsimLOjK1t35chj_1280.jpg"
+                            }
+                        ],
+                        "url": "https://es.noticias.yahoo.com/14-fotos-ic%C3%B3nicas-protestas-mundo-113857336/photo-un-polic-a-turco-usa-1470052584524.html"
+                    },
+                    {
+                        "pageTitle": "\u5168\u7403\u6700\u6709\u5f71\u97ff\u529b\u7684\u7167\u7247\uff0c\u6bcf\u4e00\u5f35\u90fd\u89f8\u76ee\u9a5a\u5fc3\uff01\uff5cZi \u5b57\u5a92\u9ad4",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://s.zimedia.com.tw/s/BXiV17-13"
+                            }
+                        ],
+                        "url": "https://zi.media/@yidianzixun/post/BXiV17"
+                    },
+                    {
+                        "pageTitle": "14 fotos ic\u00f3nicas de protestas alrededor del mundo - Yahoo Noticias",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://s.yimg.com/ny/api/res/1.2/.UDVHkZBAWxHOWGrQNWSDg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQzMA--/https://s.yimg.com/uu/api/res/1.2/PA8aTx07zAebh5nGZQeVhg--~B/aD04NjA7dz0xMjgwO3NtPTE7YXBwaWQ9eXRhY2h5b24-/https://66.media.tumblr.com/7164afa8aed45126cf76a68ac363719e/tumblr_inline_oacsimLOjK1t35chj_1280.jpg"
+                            }
+                        ],
+                        "url": "https://es.noticias.yahoo.com/14-fotos-ic%C3%B3nicas-protestas-mundo-113857336/photo-varios-manifestantes-contrarios-a-la-1470052584599.html"
+                    },
+                    {
+                        "pageTitle": "\u5386\u53f2\u4e0a\u300c\u6700\u6709\u5f71\u54cd\u529b\u300d\u7684100\u5f20\u7167\u7247\uff0c\u4e2d\u56fd\u67093\u5f20\uff0c\u4f46\u6211\u53ea\u80fd\u653e1\u5f20| \u6da8\u59ff\u52bf",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://cdn.zhangzishi.cc/wp-content/uploads/2016/12/090727S1G.jpg"
+                            }
+                        ],
+                        "url": "https://www.zhangzishi.cc/20161206yz.html"
+                    },
+                    {
+                        "pageTitle": "\u60f3\u4e86\u89e3200\u5e74\u6765\u4eba\u7c7b\u7684\u7ecf\u5178\u65f6\u523b\uff0c\u6765\u8fd9\u91cc\u5c31\u5bf9\u4e86\uff01\uff08\u4e8c\uff09 - \u641c\u72d0",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://img.mp.itc.cn/upload/20170328/bfcd3f5ae57a4cd58c981c25c851f246_th.jpeg"
+                            }
+                        ],
+                        "url": "http://www.sohu.com/a/130736432_658244"
+                    },
+                    {
+                        "pageTitle": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430 \u0416\u0435\u043b\u0435\u0437\u043d\u043e\u0433\u043e \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430 \u0431\u044b\u043b\u0430 \u043f\u0440\u043e\u043a\u043b\u044f\u0442\u0430! | \u041f\u0438\u043a\u0430\u0431\u0443",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://cs10.pikabu.ru/images/big_size_comm/2019-08_6/1566985915296182479.jpg"
+                            }
+                        ],
+                        "url": "https://pikabu.ru/story/komanda_zheleznogo_cheloveka_byila_proklyata_6893948"
+                    },
+                    {
+                        "pageTitle": "\u3010\u9707\u64bc\u3011\u5168\u7403\u6700\u6709\u5f71\u54cd\u529b\u7684\u7167\u7247\uff0c\u6bcf\u4e00\u5f20\u90fd\u89e6\u76ee\u60ca\u5fc3\uff01-\u65b0\u95fb\u9891\u9053-\u624b\u673a\u641c\u72d0",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://s9.rr.itc.cn/r/wapChange/20174_4_12/a1q9zu9987273088619.jpeg"
+                            }
+                        ],
+                        "url": "https://m.sohu.com/n/486402428/"
+                    },
+                    {
+                        "pageTitle": "Ng\u00e0y n\u00e0y n\u0103m x\u01b0a: V\u1ee5 t\u00e0n s\u00e1t sinh vi\u00ean M\u1ef9 ch\u1ed1ng chi\u1ebfn tranh Vi\u1ec7t ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://mcnews1.media.netnews.vn/netnews/archive/images/2018050404/tinngan_045423_662664616_0wap_320.jpg"
+                            }
+                        ],
+                        "url": "http://netnews.vn/Ngay-nay-nam-xua-Vu-tan-sat-sinh-vien-My-chong-chien-tranh-Viet-Nam-the-gioi-1488-0-1537838.html"
+                    },
+                    {
+                        "pageTitle": "\u7f8e\u56fd\u5973\u5b69\u80cc\u6b65\u67aa\u62cd\u6bd5\u4e1a\u7167\uff1a\u67aa\u4e0e\u88d9\u5b50\u548c\u9ad8\u8ddf\u978b\u66f4\u642d_\u817e\u8baf\u65b0\u95fb",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://inews.gtimg.com/newsapp_bt/0/3681056692/1000"
+                            }
+                        ],
+                        "url": "https://new.qq.com/notfound.htm?uri=http://new.qq.com/omn/20180523/20180523A0P5K100.html?pc"
+                    },
+                    {
+                        "pageTitle": "\u0423\u0440\u043e\u043a\u0438 \u0434\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0438 - \u0410\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u0430\u044f \u0418\u0441\u0442\u043e\u0440\u0438\u044f",
+                        "partialMatchingImages": [
+                            {
+                                "url": "http://alternathistory.com/files/resize/users/user6327/uroki-demokratii-03-680x456.jpg"
+                            }
+                        ],
+                        "url": "http://alternathistory.com/uroki-demokratii/"
+                    },
+                    {
+                        "pageTitle": "\u0635\u0648\u0631 \u0644\u0646 \u062a\u0646\u0633\u0649 .. \u0648\u062b\u0642\u062a \u0623\u062d\u062f\u0627\u062b \u0627\u0644\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062d\u062f\u064a\u062b \u0628\u0639\u062f\u0633\u0627\u062a \u0627\u0644\u0643\u0627\u0645\u064a\u0631\u0627 - CNN ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://static.arabic.cnn.com/sites/default/files/styles/landscape_1280/public/2015/02/08/images/60097_10.jpg?itok=fWT4o_qR"
+                            }
+                        ],
+                        "url": "https://arabic.cnn.com/world/2015/02/06/gallery-iconic-images"
+                    },
+                    {
+                        "pageTitle": "8 \u0644\u0642\u0637\u0627\u062a \u062e\u0644\u062f\u062a \u062d\u0631\u0628 \u0641\u064a\u062a\u0646\u0627\u0645 \u0627\u0644\u0645\u062a\u0648\u062d\u0634\u0629: \u0627\u0644\u0645\u0635\u0648\u0631 \u0646\u062f\u0645 \u0639\u0644\u0649 \u0627\u0644\u062a\u0642\u0627\u0637 \u0647\u0630\u0647 \u0627\u0644\u0635\u0648\u0631 ...",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://i1.wp.com/www.snyar.net/wp-content/uploads/2015/10/842.jpg"
+                            }
+                        ],
+                        "url": "http://www.alhakea.com/word/?p=82029"
+                    },
+                    {
+                        "pageTitle": "\u7f8e\u56fd\u519b\u8b66\u67404\u540d\u53cd\u6218\u5b66\u751f\uff0c\u5f15\u5168\u7f8e400\u4e07\u4eba\u6e38\u884c\uff0c\u5b98\u5458\uff1a\u8fd9\u662f\u5185\u6218",
+                        "partialMatchingImages": [
+                            {
+                                "url": "https://inews.gtimg.com/newsapp_bt/0/10067814355/1000"
+                            }
+                        ],
+                        "url": "https://new.qq.com/omn/20190821/20190821A090A800.html?pc"
+                    }
+                ],
+                "partialMatchingImages": [
+                    {
+                        "url": "https://miro.medium.com/max/5000/1*e79NHdyyDSTY7XwFfO8vWQ.jpeg"
+                    },
+                    {
+                        "url": "https://www.volynnews.com/files/news/2016/11-18/205284/time-100-influential-photos-john-paul-filo-kent-state-shootings-65.jpg"
+                    },
+                    {
+                        "url": "http://cdn.zhangzishi.cc/wp-content/uploads/2016/12/090727S1G.jpg"
+                    },
+                    {
+                        "url": "https://miro.medium.com/max/3214/1*V7i7eiKVkE4BDC2D_9Ac4w.jpeg"
+                    },
+                    {
+                        "url": "https://img.fireden.net/co/image/1521/39/1521395621290.jpg"
+                    },
+                    {
+                        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/c9ca5d47940023.5889715cb1d8e.jpg"
+                    },
+                    {
+                        "url": "http://img.mp.itc.cn/upload/20170328/bfcd3f5ae57a4cd58c981c25c851f246_th.jpeg"
+                    },
+                    {
+                        "url": "https://s.yimg.com/ny/api/res/1.2/jbc_45SIX_gsJ.si3OykZg--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9MTI4MDtoPTk2MDtpbD1wbGFuZQ--/https://66.media.tumblr.com/7164afa8aed45126cf76a68ac363719e/tumblr_inline_oacsimLOjK1t35chj_1280.jpg"
+                    },
+                    {
+                        "url": "https://i2.wp.com/pousta.com/wp-content/uploads/2016/11/dead-time-1.png?resize=1200%2C809"
+                    },
+                    {
+                        "url": "https://miro.medium.com/max/2400/1*kAkVevgfGrNJQFDLl3NwRQ.jpeg"
+                    },
+                    {
+                        "url": "https://cs10.pikabu.ru/images/big_size_comm/2019-08_6/1566985915296182479.jpg"
+                    },
+                    {
+                        "url": "http://www.basfeijen.nl/worldview/system/pic/johnfilokentstateshootings.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/DzdnJR0X0AA2qB3.jpg"
+                    },
+                    {
+                        "url": "https://static.arabic.cnn.com/sites/default/files/styles/landscape_1280/public/2015/02/08/images/60097_10.jpg?itok=fWT4o_qR"
+                    },
+                    {
+                        "url": "https://static.arabic.cnn.com/sites/default/files/styles/landscape_1280/public/2015/10/25/images/110875_8.jpg?itok=QryPGJb9"
+                    },
+                    {
+                        "url": "http://cdn.eagle.mn/cache/images/d/b/f/e/5/dbfe569553baff418f6f2227e09420c7de7edfb2.jpg"
+                    },
+                    {
+                        "url": "https://image1.slideserve.com/2305444/may-4-th-monday3-l.jpg"
+                    },
+                    {
+                        "url": "https://slideplayer.com/slide/17031285/98/images/6/Filo%E2%80%99s+famous+photo+of+student+turmoil.jpg"
+                    },
+                    {
+                        "url": "https://scontent-lhr8-1.cdninstagram.com/v/t51.2885-15/fr/e15/s1080x1080/62234543_458024268076735_2276405536391688824_n.jpg?_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_cat=107&_nc_ohc=iwxHDy3Jw5wAX_bXBG7&oh=91d15d35d2508aed190209734d00b6f9&oe=5ED2CC24"
+                    },
+                    {
+                        "url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-15/e35/73446491_1023563321324073_9196999329057522951_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=109&_nc_ohc=qwL9ipX92jcAX9-iaOY&oh=3230c8e82dfe50135db4f607e8e3bb3f&oe=5EADCD5D"
+                    },
+                    {
+                        "url": "https://www.theadvocates.org/wp-content/uploads/2017/06/time-100-influential-photos-john-paul-filo-kent-state-shootings-65.jpg"
+                    },
+                    {
+                        "url": "https://media.gettyimages.com/photos/teenager-mary-ann-vecchio-screams-as-she-kneels-over-the-body-of-kent-picture-id90256495"
+                    },
+                    {
+                        "url": "https://images.baaz.com/3e73/b33e/21ac/36f6/1024x768/a1950bb89768f371d7d7537d869ca24419b4e072dfd838ca5b54d88d86cc78ac.jpg?v=2562087eedcea6a6b5ac940c45824632"
+                    },
+                    {
+                        "url": "https://static.photocdn.pt/images/articles/2019/08/28/most_famous_pictures.jpg"
+                    },
+                    {
+                        "url": "https://slideplayer.com/slide/4296378/14/images/19/The+War+at+Home%2C+Spring+1970+President+Nixon%E2%80%99s.+order+to+invade+Cambodia.+sparked+angry+protests+on..jpg"
+                    },
+                    {
+                        "url": "https://images.squarespace-cdn.com/content/v1/5a05a02fcd39c33e5f78f697/1556983169010-W46CM2PN528525VH6WND/ke17ZwdGBToddI8pDm48kAnnfea7JZz1tZW0EpnfudJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYr145E5OlY98cRAWWqRCZ8n80TzcSqjVZW-hRqTdSE10sc8M5GEoqn2Jm2XhV6veQ/time-100-influential-photos-john-paul-filo-kent-state-shootings-65.jpg"
+                    },
+                    {
+                        "url": "https://images.outlookindia.com/public/uploads/editor/2019-11-28/1574934090.jpg"
+                    },
+                    {
+                        "url": "https://dynaimage.cdn.cnn.com/cnn/q_auto,h_600/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F140618103519-11-iconic-vietnam-war-restricted.jpg"
+                    },
+                    {
+                        "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2500843563281279"
+                    },
+                    {
+                        "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=687062405061748"
+                    },
+                    {
+                        "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2061535777480491"
+                    },
+                    {
+                        "url": "https://i3.read01.com/SIG=3jclksh/30463772694a4f397768.jpg"
+                    },
+                    {
+                        "url": "https://i0.wp.com/pravmir.ru/wp-content/uploads/2016/11/time-100-influential-photos-john-paul-filo-kent-state-shootings-65.jpg"
+                    },
+                    {
+                        "url": "http://image.hnol.net/c/2016-11/21/12/20161121123337179-167450.jpg"
+                    },
+                    {
+                        "url": "https://slideplayer.com/slide/14723040/90/images/10/John+Filo%2C+Anti+War+Demo%2C+Kent+State.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/CEK9KTcVAAAzbem.png"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/DZEmSBCVQAAYIF5.jpg"
+                    },
+                    {
+                        "url": "http://4.bp.blogspot.com/-bFlfOCqnf5s/U2c-_UgJR9I/AAAAAAAACT4/8IUtPGjgEoA/s1600/1.jpg"
+                    },
+                    {
+                        "url": "https://inews.gtimg.com/newsapp_bt/0/3681056692/1000"
+                    },
+                    {
+                        "url": "https://pic4.zhimg.com/5b6e73760b511ead01c59172ae25c76b_r.jpg"
+                    },
+                    {
+                        "url": "https://assets.forwardcdn.com/images/cropped/7jpgcroporiginal-original-1430764274.jpg"
+                    },
+                    {
+                        "url": "https://inews.gtimg.com/newsapp_match/0/3681056692/0"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/CEKXViOUMAAALA3.jpg"
+                    },
+                    {
+                        "url": "https://1.bp.blogspot.com/-gH2qFb9qbsE/WoaonDtNIzI/AAAAAAAAHw0/Oz0acmSsvFEVZEDsYoYlBpaV5BJodRhtQCEwYBhgL/s1600/John%2BFilo%2BMasacre%2Bde%2BKent%2BState.jpg"
+                    },
+                    {
+                        "url": "https://norbertobarreto.files.wordpress.com/2019/10/v4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/EJKieVFUUAEV17P.jpg"
+                    },
+                    {
+                        "url": "http://www.operatorchan.org/t/src/150873187469.png"
+                    },
+                    {
+                        "url": "https://66.media.tumblr.com/703d05d5042dc410aab4b745ee5a8e6a/tumblr_n50eleTTbf1qgekmwo1_1280.jpg"
+                    },
+                    {
+                        "url": "https://i.imgur.com/ixNnpf0.jpg"
+                    },
+                    {
+                        "url": "https://i.redd.it/q1nrky9tyvv01.jpg"
+                    },
+                    {
+                        "url": "https://turnupthatvolume.files.wordpress.com/2019/05/ohio.jpg?w=1000"
+                    },
+                    {
+                        "url": "https://i.redditmedia.com/09_TNj4FeDyNNO7h7TwqlvjoMHdhRPXqvStEfD6bAPU.jpg?fit=crop&crop=faces%2Centropy&arh=2&w=108&s=e5a74e7385aa4e146df781f77cc90bb7"
+                    },
+                    {
+                        "url": "https://fark-usrimg-full.nyc3.digitaloceanspaces.com/l/l9/fark_l9VX9YnQ0us4ULKXNU-VZ-JNp3s.jpg?AWSAccessKeyId=HBAYEKZHGUB4NAYQBVSQ&Expires=1575262800&Signature=f8uENqcTAXttR4y%2F5Yp2ljiShqI%3D"
+                    },
+                    {
+                        "url": "https://2.bp.blogspot.com/-ZZKD2ncuc00/UtJOUowXKSI/AAAAAAAAAQc/sUHg9KYYglU/s1600/image.jpg"
+                    },
+                    {
+                        "url": "http://2.bp.blogspot.com/-jBmI_GcVwXo/WCqkvqVfsWI/AAAAAAAADHs/Sw8B_3ESYNgqyFgtNZP3BLYHE-xV1N-GQCK4B/s1600/7.jpg.CROP.original-original.jpg"
+                    },
+                    {
+                        "url": "https://66.media.tumblr.com/b3481ab41fa97fb567a9b70cfa4666ac/tumblr_inline_ozzyqaX2Hk1qj4i12_1280.png"
+                    },
+                    {
+                        "url": "https://assets.rbl.ms/17634929/origin.jpg"
+                    },
+                    {
+                        "url": "https://turnupthatvolume.files.wordpress.com/2019/05/ohio.jpg"
+                    },
+                    {
+                        "url": "https://mmbiz.qpic.cn/mmbiz_jpg/uYTlMrRiaW2zia84kmE5tNuNT2WNr9FEkJmYmCiaSJicnWXaCFohggRqrbYjbX6C1oDkkhzbyBjJYDk5srVF7Rdl7g/640?wx_fmt=jpeg"
+                    },
+                    {
+                        "url": "https://static.wixstatic.com/media/c0c986_61d4a0303498411cbda163e43958f5bf.png/v1/fill/w_925,h_595,al_c,q_90/c0c986_61d4a0303498411cbda163e43958f5bf.webp"
+                    },
+                    {
+                        "url": "https://qph.fs.quoracdn.net/main-qimg-27083108530f5790bcc5e3e793fcef83"
+                    },
+                    {
+                        "url": "https://ic.pics.livejournal.com/vikond65/53941713/889168/889168_original.jpg"
+                    },
+                    {
+                        "url": "https://attardisocialstudies.weebly.com/uploads/1/0/9/8/109876644/130830222444-10-iconic-kent-state-horizontal-large-gallery_orig.jpg"
+                    },
+                    {
+                        "url": "http://wx3.sinaimg.cn/large/006pqZ4Ygy1fl6za9an56j30r80fcjus.jpg"
+                    },
+                    {
+                        "url": "https://i1.wp.com/i2.cdn.turner.com/cnnnext/dam/assets/130605144602-12-protests-horizontal-large-gallery.jpg"
+                    },
+                    {
+                        "url": "https://refstatic.sk/article/masakr-na-kent-state-americti-vojaci-vrazdili-neozbrojene-studenty-a-prezidenta-evakuovali-z-bileho-domu~8d331780730920de7fdd.jpg?is=919x570c&ic=0x82x1607x996&c=2w&s=179b823ba5c8b49687b726d4d81ac4d65b353f3f6a8fa8228afe76849daee979"
+                    },
+                    {
+                        "url": "https://4.bp.blogspot.com/-un2TxuRl_HI/V9m_cnRjvNI/AAAAAAAAids/Sbqwx40hfOkHOR6xgr10_68ykPzFzMyCgCLcB/s1600/13895103_10153672942897750_1740901884387693869_n-2.jpg"
+                    },
+                    {
+                        "url": "https://4.bp.blogspot.com/-YscSEiwR-zs/WdOpWcrY1nI/AAAAAAAADwY/mDNb_SyhTQoA2Tb2uXFnbVav_7HWl7EnACEwYBhgL/s1600/IMG_2308.PNG"
+                    },
+                    {
+                        "url": "https://fark-usrimg-850.nyc3.digitaloceanspaces.com/l/l9/fark_l9VX9YnQ0us4ULKXNU-VZ-JNp3s.jpg?AWSAccessKeyId=HBAYEKZHGUB4NAYQBVSQ&Expires=1575262800&Signature=9R1dQLThbLQ%2FC6fxiOaOSMePBGs%3D"
+                    },
+                    {
+                        "url": "https://i0.wp.com/faroutmagazine.co.uk/wp-content/uploads/2019/07/Thirty-seconds-of-chaos-that-forever-changed-rock-history.jpeg?fit=850%2C567&ssl=1"
+                    },
+                    {
+                        "url": "https://insolitphoto.net/wp-content/uploads/sites/203/2019/04/7-2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/EJK2hHOWwAAmDex.jpg"
+                    },
+                    {
+                        "url": "https://i.imgur.com/pXXkmZK.jpg"
+                    },
+                    {
+                        "url": "https://image.pbs.org/poster_images/assets/waronhomefrontimage.png"
+                    },
+                    {
+                        "url": "http://4.bp.blogspot.com/-bFlfOCqnf5s/U2c-_UgJR9I/AAAAAAAACT4/8IUtPGjgEoA/w1200-h630-p-k-no-nu/1.jpg"
+                    },
+                    {
+                        "url": "http://azpress.az/userfiles/-AZpressAZ-zorakiliq-muqavimet%20(14).jpg"
+                    },
+                    {
+                        "url": "https://4.bp.blogspot.com/-_D-438fsth8/V4egwJYQvAI/AAAAAAABrAg/MOKuBY_CsI8E5pS6FPMowFxvdbxSkYLTwCLcB/s1600/160821-John%2BPaul%2BFilo%252C%2BKent%2BState%2BMassacre%2B%25281970%2529-ok.jpg"
+                    },
+                    {
+                        "url": "https://media.makeameme.org/created/some-of-those-1b79b2590a.jpg"
+                    },
+                    {
+                        "url": "https://instagram.fcgk6-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/73446491_1023563321324073_9196999329057522951_n.jpg?_nc_ht=instagram.fcgk6-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=VGVvS9Ot9oAAX_x8u2m&oh=231625994e8722a7053869defd41c2de&oe=5EC7F6E7"
+                    },
+                    {
+                        "url": "https://www.snopes.com/tachyon/2016/03/donald-trump-protesters-strecther.jpg?resize=865,452"
+                    },
+                    {
+                        "url": "https://mmbiz.qpic.cn/mmbiz_jpg/h3Pfd4Up2MhINwx73aLL08X7yQJfWrhicGOT8228ggyBGvErtOvDWewdtqLGGq0IEMq9L2FdiaqSKDnSVGIDQMCg/?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1"
+                    },
+                    {
+                        "url": "https://images.squarespace-cdn.com/content/v1/5a05a02fcd39c33e5f78f697/1556983169010-W46CM2PN528525VH6WND/ke17ZwdGBToddI8pDm48kAnnfea7JZz1tZW0EpnfudJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYr145E5OlY98cRAWWqRCZ8n80TzcSqjVZW-hRqTdSE10sc8M5GEoqn2Jm2XhV6veQ/time-100-influential-photos-john-paul-filo-kent-state-shootings-65.jpg?format=750w"
+                    },
+                    {
+                        "url": "http://www.cvltnation.com/wp-content/uploads/2017/11/time-100-influential-photos-john-paul-filo-kent-state-shootings-65-750x504.jpg"
+                    },
+                    {
+                        "url": "https://3.404content.com/resize/730x-/1/36/3A/1138245450597139673/fullsize.jpg"
+                    },
+                    {
+                        "url": "https://i.imgur.com/ixNnpf0g.jpg"
+                    },
+                    {
+                        "url": "https://i.imgur.com/GUZv3tug.png"
+                    },
+                    {
+                        "url": "https://images.forwardcdn.com/image/720x/center/images/cropped/7jpgcroporiginal-original-1430764274.jpg"
+                    },
+                    {
+                        "url": "https://kubotaerin.files.wordpress.com/2016/05/7-crop-original-original.jpg?w=720"
+                    },
+                    {
+                        "url": "https://i1.wp.com/www.snyar.net/wp-content/uploads/2015/10/842.jpg"
+                    },
+                    {
+                        "url": "http://www.snyar.net/wp-content/uploads/2015/10/842.jpg"
+                    },
+                    {
+                        "url": "https://cdn.theatlantic.com/assets/media/img/posts/2017/12/kentstate/8b2cb9fc3.jpg"
+                    },
+                    {
+                        "url": "http://whatwouldjackdo.net/images/ksutrump.jpg"
+                    },
+                    {
+                        "url": "http://mblogthumb1.phinf.naver.net/MjAxOTA3MTdfMjIz/MDAxNTYzMzU1MDU3MjIy.yhtvsit7xyYQP4j4mzEhSVHmprFN7dATtYtJgNTNV-4g.BWYRYEvo6SEg3YQy5fWU1qDunRVx9hLiuKYK9MSAXgkg.JPEG.latriste/double_target_10.jpg?type=w800"
+                    },
+                    {
+                        "url": "http://alternathistory.com/files/resize/users/user6327/uroki-demokratii-03-680x456.jpg"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/5jlnu93tMBM/sddefault.jpg#404_is_fine"
+                    },
+                    {
+                        "url": "https://image.slidesharecdn.com/unit9atimeofupheavalpowerpoint-150812235309-lva1-app6892/95/unit-9-a-time-of-upheaval-powerpoint-part-1-31-638.jpg?cb=1439423734"
+                    },
+                    {
+                        "url": "http://www.hambastagi.org/new/images/jun15/3_kent_university_protest_1970.jpg"
+                    },
+                    {
+                        "url": "http://4.bp.blogspot.com/-T-n3JaAo2jk/UYkUTyMaeVI/AAAAAAABVVo/hdhfWk9EGWk/s1600/Screen+shot+2013-05-06+at+8.34.10+AM.png"
+                    },
+                    {
+                        "url": "https://aliqtisadi.com/wp-content/uploads/2015/02/%D8%B5%D9%88%D8%B1-%D9%84%D9%86-%D8%AA%D9%86%D8%B3%D9%89-9.jpg"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/12032152/7.jpg.CROP.promo-large.jpg"
+                    },
+                    {
+                        "url": "https://media.ex-cdn.com/EXP/media.phunutoday.vn/files/dataimages/201504/29/original/anh-chien-tranh-doat-giai-6.jpg"
+                    },
+                    {
+                        "url": "https://lh5.googleusercontent.com/proxy/jCOVWCTHGMEeDjJlQPGG80kBvbqs-_JOf5_I8xbtwc_Tsrk3lAn2lqKWYZdyE6UclSSTYu5pGku1kwgXlSl-yA7S9D0BcbeOix1AAARFl2VfoLpfOMgD-b1e-nzzEC7PgBfAnw=s0-d"
+                    },
+                    {
+                        "url": "https://www.armyvoice.gr/wp-content/uploads/2018/04/Ohio-1970.jpg"
+                    },
+                    {
+                        "url": "https://3.bp.blogspot.com/-2Vq-yV0M-0g/Wsx72fFRM6I/AAAAAAAAHl4/y_6ADjz9tg080fp9LWsbgDw-mTESHXFPACLcBGAs/s1600/Ohio-1970.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/D5uwpYYWwAA3s3b.jpg"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/15013843/image/original-51e5920d0d370b3b48e2f6ee2f4ff0ab.png"
+                    },
+                    {
+                        "url": "http://eagle.mn/cache/images/1/9/4/c/4/194c4308cc361c6e2f24ae4e56319983366d8224.jpg"
+                    },
+                    {
+                        "url": "https://photo-2-baomoi.zadn.vn/w700_r1/17/06/19/139/22562680/7_132147.jpg"
+                    },
+                    {
+                        "url": "https://thelastofthemillenniums.files.wordpress.com/2016/07/trump-good-old-days.jpg?w=640"
+                    },
+                    {
+                        "url": "http://image1.nphoto.net/news/image/201611/433f9e50d3ef781f.jpg"
+                    },
+                    {
+                        "url": "https://i2.kknews.cc/SIG=1bjljkq/ctp-vzntr/8ssr9s2s72q94r4qn4q4n2o652169461.jpg"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/14066622/image/original-f1840e5e54cd74c1b60a25e3fc106d14.jpg"
+                    },
+                    {
+                        "url": "https://inews.gtimg.com/newsapp_bt/0/10067814355/641"
+                    },
+                    {
+                        "url": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/5836771/7.jpg.CROP.original-original_%281%29.jpg"
+                    },
+                    {
+                        "url": "https://s.yimg.com/ny/api/res/1.2/.UDVHkZBAWxHOWGrQNWSDg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQzMA--/https://s.yimg.com/uu/api/res/1.2/PA8aTx07zAebh5nGZQeVhg--~B/aD04NjA7dz0xMjgwO3NtPTE7YXBwaWQ9eXRhY2h5b24-/https://66.media.tumblr.com/7164afa8aed45126cf76a68ac363719e/tumblr_inline_oacsimLOjK1t35chj_1280.jpg"
+                    },
+                    {
+                        "url": "https://i1.kknews.cc/SIG=22t5nu7/ctp-vzntr/1527039849911os8qsq367s.jpg"
+                    },
+                    {
+                        "url": "https://s.zimedia.com.tw/s/BXiV17-13"
+                    },
+                    {
+                        "url": "https://i0.wp.com/faroutmagazine.co.uk/wp-content/uploads/2019/07/Thirty-seconds-of-chaos-that-forever-changed-rock-history.jpeg?fit=850%2C567&ssl=1&w=640"
+                    },
+                    {
+                        "url": "https://pics.me.me/kent-state-may-4-1970-photo-john-filo-i-love-7295655.png"
+                    },
+                    {
+                        "url": "https://cdn2.newsok.biz/cache/w620-c3b7372c3020b3abd145811a99545579.jpg"
+                    },
+                    {
+                        "url": "http://bfttimg2.hebtv.com/p/2019-01-21/voyuelxgcsp.jpg"
+                    },
+                    {
+                        "url": "https://qph.fs.quoracdn.net/main-qimg-7555586b29b12f1eb37ec15ba24dffba.webp"
+                    },
+                    {
+                        "url": "https://pic2.zhimg.com/v2-1b786836687e19c460c131d7fe05210d_b.jpg"
+                    },
+                    {
+                        "url": "https://qph.fs.quoracdn.net/main-qimg-4f6428e825d862555bece551f4363af5"
+                    },
+                    {
+                        "url": "https://latoutdesuite.files.wordpress.com/2018/03/kent_state_shootings_john_paul_filo.png?w=600"
+                    },
+                    {
+                        "url": "https://s9.rr.itc.cn/r/wapChange/20174_17_12/a1konm8027756967542.jpeg"
+                    },
+                    {
+                        "url": "http://i.imgur.com/J6hmN6T.png"
+                    },
+                    {
+                        "url": "http://img.hani.co.kr/imgdb/resize/2019/1007/00503397_20191007.JPG"
+                    },
+                    {
+                        "url": "https://s9.rr.itc.cn/r/wapChange/201611_28_19/a6jxgj2685362821855.jpeg"
+                    },
+                    {
+                        "url": "http://avconline.avc.edu/cyorke/images/7.jpg.CROP.original-original.jpg"
+                    },
+                    {
+                        "url": "https://i1.kknews.cc/SIG=3h2ql71/1ns50002426soo8q676s.jpg"
+                    },
+                    {
+                        "url": "https://norbertobarreto.files.wordpress.com/2019/10/v4.jpg?w=584"
+                    },
+                    {
+                        "url": "http://www.kcconfidential.com/wp-content/uploads/2018/12/time-100-influential-photos-john-paul-filo-kent-state-shootings-65.jpg"
+                    },
+                    {
+                        "url": "https://66.media.tumblr.com/689df7c46ff473279f91d13fe46629bb/tumblr_inline_pqzb6hRRAg1r4w6w2_540.jpg"
+                    },
+                    {
+                        "url": "https://josna.files.wordpress.com/2016/07/130605144602-12-protests-horizontal-large-gallery.jpg?w=584&h=329"
+                    },
+                    {
+                        "url": "https://cherrieswriter.files.wordpress.com/2019/01/140618103519-11-iconic-vietnam-war-restricted-horizontal-large-gallery.jpg?w=584"
+                    },
+                    {
+                        "url": "https://photostories.photography/wp-content/uploads/2017/02/130830222444-10-iconic-kent-state-horizontal-large-gallery-500x339.png"
+                    },
+                    {
+                        "url": "http://www.topnews.ru/upload/photo/72ac23f0/53b18.jpg"
+                    },
+                    {
+                        "url": "https://66.media.tumblr.com/0f639c424b3222aee32f52a9926b7368/tumblr_inline_p7lvb6P9Be1spltrl_540.jpg"
+                    },
+                    {
+                        "url": "https://pics.me.me/kent-state-may-4-1970-photo-john-filo-i-love-20417969.png"
+                    },
+                    {
+                        "url": "http://image.xahoi.com.vn/resize_480x600/news/2015/04/30/anh-chien-tranh-doat-giai-6-xahoi.com.vn-1430368008.jpg"
+                    },
+                    {
+                        "url": "https://slideplayer.com/101/17363128/big_thumb.jpg"
+                    },
+                    {
+                        "url": "https://i.pinimg.com/474x/b3/db/11/b3db117e02712a845c324231090d2acb.jpg"
+                    },
+                    {
+                        "url": "https://pics.me.me/kent-state-may-4-1970-photo-john-filo-i-love-the-20361068.png"
+                    },
+                    {
+                        "url": "https://i-vnexpress.vnecdn.net/2015/04/17/ffffffffffffffffffff-1429270310_m_460x0.jpg"
+                    },
+                    {
+                        "url": "https://pics.onsizzle.com/4-hrs-on-this-day-in-1970-the-kent-state-21314403.png"
+                    },
+                    {
+                        "url": "https://effettolucifero.files.wordpress.com/2016/07/146fd394-0bb7-48a2-a500-b3e71b706149.jpg?w=740"
+                    },
+                    {
+                        "url": "https://i2.wp.com/www.slate.com/content/dam/slate/blogs/behold/2013/05/04/7.jpg.CROP.original-original.jpg?strip=info&resize=428,267"
+                    },
+                    {
+                        "url": "http://mcnews1.media.netnews.vn/netnews/archive/images/2018050404/tinngan_045423_662664616_0wap_320.jpg"
+                    },
+                    {
+                        "url": "https://cdn.sansimera.gr/media/photos/main/lg/Ohio-1970.jpg"
+                    },
+                    {
+                        "url": "https://www.arabamericannews.com/wp-content/uploads/2018/02/Mary-Ann-Vecchio-screams-as-she-kneels-over-the-body-of-Jeffrey-Miller-during-an-anti-war-demonstration-at-Kent-State-University-Ohio-May-4-1970.-370x223.jpg"
+                    },
+                    {
+                        "url": "https://media.cdnp.elobservador.com.uy/adjuntos/181/imagenes/013/744/0013744047.png?&cw=350"
+                    },
+                    {
+                        "url": "https://i0.wp.com/66.media.tumblr.com/8c481a1b6525e77968cc65da1a66c967/tumblr_pr0m05Nqcn1s7e5k5o1_1280.jpg?resize=350%2C200&ssl=1"
+                    },
+                    {
+                        "url": "https://cdn.thinglink.me/api/image/k75bsVmJ9vo9TVrJVt4D6vT74cVUXjtoKez3CZPPbCELJyBsrDay1po3oXtRDBzbf9D5WjtC8FjvfT2JgQg34N6RTHHV6orCXu7j9Syuz6V4udeer1bbm5v5qhvNUaiJNBuRDEkL8FAZgK5zQNydVR8Wim8seERfL/320/320/scaledown"
+                    },
+                    {
+                        "url": "https://photostories.photography/wp-content/uploads/2017/02/130830222444-10-iconic-kent-state-horizontal-large-gallery-300x204.png"
+                    },
+                    {
+                        "url": "https://pics.me.me/thumb_our-founders-worried-that-one-day-corrupt-leaders-might-mow-52406034.png"
+                    },
+                    {
+                        "url": "https://i.guim.co.uk/img/static/sys-images/Guardian/About/General/2012/10/4/1349372731874/Student-Jeffrey-Miller-ki-011.jpg?width=300&quality=85&auto=format&fit=max&s=d86b9b38b329736b4217d4131ffd407d"
+                    },
+                    {
+                        "url": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/red/blue_pics/2011/05/03/kentstate_460x276.jpg?width=300&quality=85&auto=format&fit=max&s=7062c32bbed14ca77fc7a557aed06e73"
+                    },
+                    {
+                        "url": "https://4.bp.blogspot.com/-BxUUacVReDY/WjUqqPTr6zI/AAAAAAABlB0/4MI0ZKnagrMDiWTwSCQpErLmSaMAU_x4QCLcBGAs/s1600/kate-u.jpg"
+                    },
+                    {
+                        "url": "https://cdn.cnn.com/cnnnext/dam/assets/130605144602-12-protests-medium-plus-169.jpg"
+                    },
+                    {
+                        "url": "https://1.bp.blogspot.com/-YorpQXBS4Q0/XTht3OfRCsI/AAAAAAAAfck/ielSoct-XDwjupNPumOAXvYmG4U-GYKEwCLcBGAs/s280/5.jpg"
+                    },
+                    {
+                        "url": "http://1.bp.blogspot.com/-wCdq-426rcM/WLrzAoeiJjI/AAAAAAAAFNI/6QiK9VmCZAkLIiElqvUMw330RQcVi0dRgCK4B/s1600/imgres-1.jpg"
+                    },
+                    {
+                        "url": "https://qph.fs.quoracdn.net/main-qimg-3951f363591b436cdafa91c752dff3e3"
+                    },
+                    {
+                        "url": "https://pics.me.me/thumb_kent-state-may-4-1970-photo-john-filo-i-love-the-12741802.png"
+                    },
+                    {
+                        "url": "https://i.pinimg.com/236x/f3/e4/3b/f3e43b5cd4154ea7ad8d47c1d291ecbc--mr-trump-donald-trump.jpg"
+                    },
+                    {
+                        "url": "https://i.pinimg.com/236x/ac/47/95/ac479597c98fc7644d3f5af570f80747--kent-state-university-iconic-photos.jpg"
+                    },
+                    {
+                        "url": "https://i.pinimg.com/236x/05/cf/77/05cf773465f6906515c8d1c398645d0d.jpg"
+                    },
+                    {
+                        "url": "https://i.pinimg.com/236x/8e/96/f3/8e96f37648692fcff4a032f7e8436ada.jpg"
+                    },
+                    {
+                        "url": "https://preview.redd.it/d9urxtpxd5w21.jpg?width=216&crop=smart&auto=webp&s=88d8d4c102ed348a014b18439c2f7a34842fb710"
+                    },
+                    {
+                        "url": "https://preview.redd.it/q1nrky9tyvv01.jpg?width=216&crop=smart&auto=webp&s=63c6051cee3c5af85aa1cc7b2e7846c85f824c75"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/YCskAEOvZSY/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLBCZ8UnBltF65rkQJQF69LdRToohQ"
+                    },
+                    {
+                        "url": "https://images.forwardcdn.com/image/1090x480/center/images/cropped/7jpgcroporiginal-original-1430764274.jpg"
+                    }
+                ],
+                "visuallySimilarImages": [
+                    {
+                        "url": "https://www.snopes.com/tachyon/2016/03/donald-trump-protesters-strecther.jpg?fit=920,618"
+                    },
+                    {
+                        "url": "https://pics.me.me/kent-state-may-4-1970-photo-john-filo-i-love-20417969.png"
+                    },
+                    {
+                        "url": "http://2.bp.blogspot.com/_0YZjvlQulOU/S9hm10eocJI/AAAAAAAAAtg/5Dt-So29xe0/s400/filo_kent_state_pulitzer.jpg"
+                    },
+                    {
+                        "url": "https://www.miamiherald.com/news/local/news-columns-blogs/deadline-miami/es7x2/picture2125002/alternates/FREE_1140/vecchio.jpg"
+                    },
+                    {
+                        "url": "http://www.muviscomm.com/uploads/2/1/0/5/2105309/7941600_orig.jpg"
+                    },
+                    {
+                        "url": "https://tse1.mm.bing.net/th?id=OIP.AlqtvEbgCkUmM6CMm9a5hwHaGG&w=186&h=160&c=8&rs=1&qlt=70&pid=3.1&rm=2"
+                    },
+                    {
+                        "url": "http://www.artnet.de/WebServices/images/ll00296lldpkVJFgOjECfDrCWQFHPKc2vUF/john-filo-kent-state-shooting-(mary-ann-vecchio-leaning-over-the-body-of-jeffrey-miller).jpg"
+                    },
+                    {
+                        "url": "https://image.slidesharecdn.com/photomanipulationinthedigitalage-1-151123232550-lva1-app6892/95/photo-manipulation-in-the-digital-age-15-638.jpg?cb=1448322243"
+                    },
+                    {
+                        "url": "http://hoaxes.org/images/media2/1970filo1.jpg"
+                    }
+                ],
+                "webEntities": [
+                    {
+                        "description": "Kent State University",
+                        "entityId": "/m/04bfg",
+                        "score": 1.6417501
+                    },
+                    {
+                        "description": "Kent State shootings",
+                        "entityId": "/m/0swg9",
+                        "score": 1.0891501
+                    },
+                    {
+                        "description": "University",
+                        "entityId": "/m/07tf8",
+                        "score": 0.5347
+                    },
+                    {
+                        "description": "Student",
+                        "entityId": "/m/014cnc",
+                        "score": 0.5244
+                    },
+                    {
+                        "description": "Photograph",
+                        "entityId": "/m/068jd",
+                        "score": 0.4344
+                    },
+                    {
+                        "description": "Campus",
+                        "entityId": "/m/01_x9",
+                        "score": 0.3976
+                    },
+                    {
+                        "description": "Photography",
+                        "entityId": "/m/05wkw",
+                        "score": 0.3622
+                    },
+                    {
+                        "entityId": "/t/26tx7xy9_tgvr",
+                        "score": 0.3357
+                    },
+                    {
+                        "description": "The arts",
+                        "entityId": "/m/05nj3v",
+                        "score": 0.321
+                    },
+                    {
+                        "description": "Kent",
+                        "entityId": "/m/0z0y2",
+                        "score": 0.18573
+                    },
+                    {
+                        "description": "John Filo",
+                        "entityId": "/m/02vyd4",
+                        "score": 0.106815
+                    },
+                    {
+                        "description": "Jeffrey Miller",
+                        "entityId": "/m/032p4g",
+                        "score": 0.089535
+                    },
+                    {
+                        "description": "Mary Ann Vecchio",
+                        "entityId": "/m/0853jg",
+                        "score": 0.06891
+                    }
+                ]
+            }
+        }
+    ]
+}
