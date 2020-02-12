@@ -1,7 +1,10 @@
 import os,sys
 from gcv_api import main
-from scrapeImages import *
+from gatherImagesFunctions import *
 import multiprocessing
+from multiprocessing.dummy import Pool as ThreadPool
+import concurrent.futures
+
 
 base_path = os.getcwd()
 
@@ -16,19 +19,19 @@ api_key = "AIzaSyBgfZktfle4jXZ8AkhsTbdaIWO1pyQx-5s"
 image_folder_base = "image_ks_"
 processed_urls = []
 
-for n in range(3,5):
-    print('iteration ' + str(n))
+for n in range(1,7):
+    print('--- Iteration ' + str(n))
     if n == 1:
         main.main(input_folder = source_image_folder,
                 key = api_key,
                 output_folder = image_folder_base,
                 iteration = n)
-    elif n > 1:
-        #print(os.getcwd())
-        current_image_folder = image_folder_base + str(n-1)
-        #print(current_image_folder)
-        list_json = [f for f in os.listdir(current_image_folder) if '.json' in f]
 
+    elif n > 1:
+
+        # Construct List of URLs from .json files
+        current_image_folder = image_folder_base + str(n-1)
+        list_json = [f for f in os.listdir(current_image_folder) if '.json' in f]
         all_url = []
         for js in list_json:
             json_data = loadJson(os.path.join(current_image_folder,js))
@@ -39,39 +42,31 @@ for n in range(3,5):
             except KeyError:
                 print('corrupted json file, probably an 400 Error!')
                 continue
-
         all_url = list(set(all_url))
         all_url = [u for u in all_url if u not in processed_urls]
 
-        print('{} image-urls found'.format(len(all_url)))
-
+        # Create destination folder for images
         images_destination = os.path.join(base_path,current_image_folder,'img')
-        #print(images_destination)
         if not os.path.exists(images_destination):
             os.makedirs(images_destination)
 
-        ## TEST
-        all_url = all_url[0:50]
+        # Scrape Images
+        print(' --Scraping {} images to {}'.format(len(all_url), images_destination))
+        #scraperOne(all_url, images_destination)
+        os.chdir(os.path.join(base_path,current_image_folder,'img'))
+        with concurrent.futures.ThreadPoolExecutor() as e:
+            for u in tqdm(all_url):
+                e.submit(scraperTwo, u)
+        os.chdir(os.path.join(base_path))
 
-
-        print('scraping')
-        pool = multiprocessing.Pool(16)
-        for i, url in enumerate(all_url):
-            savepath = os.path.join(images_destination, str(i))
-            #print(savepath)
-            r = pool.apply_async(scrapeImage, (url, savepath))
-            print(r)
-
-
-        print('all images of iteration {} scraped'.format(n))
-        exit()
         processed_urls = processed_urls + all_url
 
+        # Request API web detection with scraped images as output
         main.main(input_folder = os.path.join(base_path,current_image_folder, 'img'),
                 key = api_key,
                 output_folder = image_folder_base,
                 iteration = n)
 
-with open('processed_urls.txt') as f:
+with open('processed_urls.txt', 'w') as f:
     for pu in processed_urls:
         f.write(pu + ' /n')
