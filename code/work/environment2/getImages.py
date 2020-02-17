@@ -1,6 +1,6 @@
 import os,sys
 from gcv_api import main
-from gatherImagesFunctions import *
+from getImagesFunctions import *
 import multiprocessing
 from multiprocessing.dummy import Pool as ThreadPool
 import concurrent.futures
