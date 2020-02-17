@@ -42,5 +42,6 @@ for k,v in d_iter_urls.items():
     tmp = pd.DataFrame(list(tmp.items()),columns=['url','date'])
     tmp['iter'] = k
     fn = "dates_iteration" + str(k) + '.csv'
+    fn = os.path.join(base_path, name_folder + str(n), fn)
     tmp.to_csv(fn,index=False)
     print("iteration {} finished".format(k))
