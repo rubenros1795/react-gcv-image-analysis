@@ -11,7 +11,7 @@ from tqdm import tqdm
 import json
 import os
 from gatherImagesFunctions import *
-from gatherMetadataFunctions import *
+from gatherDataFunctions import *
 from htmldate import find_date
 from newspaper import Article
 import langid
