@@ -11,22 +11,29 @@ base_path = os.getcwd()
 ## Script for assembling images
 # Because Google puts a limit on the number of returned 'web results' (url's returned) I do a couple of iterations.
 
-## Step 1: request ~100 web results from source image ('migrant mother') in "mm_source" folder
+## Step 1: request ~100 (max. number of) web results from source image in source folder
 ## Step 2: scrape all images from urls found in the first iteration input_folder
+## Step 3: repeat this iteration n times
+## Stept 4: write names of unique scraped urls to .txt file
 
+# Configuration
 source_image_folder = "C://Users//Ruben//Documents//GitHub//ReACT_GCV//code//work//environment2//ks_source"
 api_key = "AIzaSyBgfZktfle4jXZ8AkhsTbdaIWO1pyQx-5s"
 image_folder_base = "image_ks_"
 processed_urls = []
+num_iterations = 6
 
-for n in range(1,7):
+for n in range(1,num_iterations+1):
     print('--- Iteration ' + str(n))
+    
+    # Iteration 1: Detect Source Folder and post to API
     if n == 1:
         main.main(input_folder = source_image_folder,
                 key = api_key,
                 output_folder = image_folder_base,
                 iteration = n)
-
+     
+    # Iteration n (>1): Detect Image URLs in Iteration n-1 folder; scrape the images and post them to API
     elif n > 1:
 
         # Construct List of URLs from .json files
@@ -54,6 +61,8 @@ for n in range(1,7):
         print(' --Scraping {} images to {}'.format(len(all_url), images_destination))
         #scraperOne(all_url, images_destination)
         os.chdir(os.path.join(base_path,current_image_folder,'img'))
+        
+        # Enable threading for faster scraping (requires function that works with single url)
         with concurrent.futures.ThreadPoolExecutor() as e:
             for u in tqdm(all_url):
                 e.submit(scraperTwo, u)
