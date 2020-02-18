@@ -3,7 +3,11 @@ import requests
 from newspaper import Article
 import image_scraper
 from getDataFunctions import *
+from getImagesFunctions import *
+
 from urllib.parse import urljoin
+import json
+import uuid
 
 '''
 Function for Extracting Images
@@ -48,16 +52,37 @@ def imgTag(url, classes=False):
                     list_url_page.append(urljoin(url, tmp['src']))
                 else:
                     continue
-        d = {url:list_url_page}
+        d = {url:[str(uuid.uuid4()),list_url_page]}
 
 
     return d
 
 # Generate list_urls
-list_urls = gatherPagesUrls(name = "image_ks_", n_folders=3)[0:10]
+list_urls = gatherPagesUrls(name = "image_ks_", n_folders=3)[:10]
 
+d_ = dict()
 for u in list_urls:
     d=imgTag(u,classes=False)
-    print(d)
-    print()
-    print('-----------------        ----------------------------')
+    d_.update(d)
+
+with open('context-images.json', 'w') as fp:
+    json.dump(d_, fp)
+
+base_path = os.getcwd()
+context_images_path = os.path.join(base_path,"image_ks_context")
+
+if not os.path.exists(context_images_path):
+    os.makedirs(context_images_path)
+
+for page,v in d_.items():
+    url = page
+    id = v[0]
+    list_url = v[1]
+    print(type(list_url))
+
+    if len(list_url) == 0:
+        continue
+    os.chdir(context_images_path)
+    for img in list_url:
+        scraperTwo(img)
+    os.chdir(base_path)
