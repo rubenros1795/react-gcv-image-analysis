@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
-import tldextract
+#import tldextract
 
 '''
 Function for Extracting <img> tags from html. Gets the tags through bs4 parser and find "src" attribute. 
@@ -12,18 +12,18 @@ url = ""
 
 def imgTag(url):
     content = requests.get(url).content
-    soup = BeautifulSoup(content,'lxml') # choose lxml parser
+    soup = BeautifulSoup(content,'lxml')
     image_tags = soup.findAll('img')
-    tld = tldextract.extract(url)
-    tld = '{}.{}'.format(tld.domain, tld.suffix)
+    #tld = tldextract.extract(url)
+    #tld = '{}.{}'.format(tld.domain, tld.suffix)
+    tld = url
     d = dict()
     
     for c,tag in enumerate(image_tags):
-        d.update({'{}_{}'.format(tld,c):tag.attrs})
+        tmp = dict(tag.attrs)
+        if "src" in tmp.keys():
+            tmp['src'] = urljoin(url, tmp['src'])
+        d.update({'{}_{}'.format(tld,c):tmp}) 
         
-    for k,v in d.items():
-        if str(v['src'])[0] == '/'
-            v['src'] = tld + v['src']
-        elif "http" not in str(v['src'])[0:6] and str(v['src'])[0] != '/':
-            v['src'] = tld + '/' + v['src']
+    d.update({"original_url":url})
     return d
