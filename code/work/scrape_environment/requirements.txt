@@ -1,0 +1,4 @@
+configparser
+requests
+networkx
+tldextract

@@ -37,6 +37,33 @@ def gatherImagessUrls(name, n_folders) :
                 continue
     return all_url
 
+def gatherProcessedImagessUrls(folder) :
+    if not os.path.exists(folder):
+        print('no images found in {}: path does not yet exist'.format(folder))
+        return
+    else:
+        list_txt = [i for i in os.listdir(folder) if ".txt" in i]
+        list_txt = [os.path.join(folder,i) for i in list_txt]
+
+        success = 0
+        errors = 0
+
+        if len(list_txt) == 0:
+            print('no images found in {}: no images in folder'.format(folder))
+        else:
+            list_url = []
+            for t in list_txt:
+                with open(t,'r') as f:
+                    c = f.readlines()
+                if c[0][:5] == "ERROR":
+                    errors += 1
+                    list_url.append(c[0])
+                else:
+                    success += 1
+                    list_url.append(c[0])
+            print("{} successful and {} failed scrapes".format(success, errors))
+            return list_url
+
 def gatherPagesUrls(name, n_folders) :
     print("Initating gatherPagesUrls")
     base_path = os.getcwd()

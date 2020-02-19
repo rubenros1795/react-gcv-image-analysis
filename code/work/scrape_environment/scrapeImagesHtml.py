@@ -11,18 +11,18 @@ from tqdm import tqdm
 import json
 import os
 from gatherImagesFunctions import *
-from gatherDataFunctions import *
+from gatherMetadataFunctions import *
 from htmldate import find_date
 from newspaper import Article
 import langid
 import concurrent.futures
 
 
-
 base_path = os.getcwd()
-name_folder = "image_ks_"
+html_folder = os.path.join(base_path, "image_ks_", "html")
+htmls = os.listdir(html_folder)
 
-d_iter_urls = dict()
-for n in range(1,2):
-    list_url = gatherPagesUrlsFolder(os.path.join(base_path, name_folder + str(n)))
-    d_iter_urls.update({n:list_url})
+soup = BeautifulSoup(open(os.path.join(html_folder, htmls[0])), "html.parser")
+imgs = soup.findAll( "img" )
+if imgs:
+    print(imgs)

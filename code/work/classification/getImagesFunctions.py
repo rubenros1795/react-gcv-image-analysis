@@ -75,8 +75,8 @@ def scraperOne(list_url,destination_path):
             continue
 
 def scraperTwo(url):
-    #fn = uuid.uuid1()
-    fn = regexz.sub(r'\W+', '', url)
+    fn = uuid.uuid1()
+    #fn = regexz.sub(r'\W+', '', url)
 
     if "png" in url:
         fn = str(fn) + ".png"
@@ -92,11 +92,18 @@ def scraperTwo(url):
         return 0
 
     try:
-        urllib.request.urlretrieve(url, fn)
+        #urllib.request.urlretrieve(url, fn)
+        with open(fn, 'wb') as f:
+            f.write(urllib.urlopen(url, timeout=30).read())
+            print("succesfully written {}".format(fn))
+        with open(fn[:-4] + ".txt",'w') as f:
+            f.write(url)
 
     except Exception as e:
         #except (HTTPError, URLError, TimeoutError,IncompleteRead, ConnectionError) as e:
-        print(e)
+        #print(e)
+        with open(fn[:-4] + ".txt",'w') as f:
+            f.write("ERROR: " + url)
         return 0
 
 def getDate(list_urls):
