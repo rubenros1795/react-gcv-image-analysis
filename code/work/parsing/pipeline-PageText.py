@@ -10,9 +10,9 @@ import json
 Step 1: Scrape Pages
 '''
 
-for topfolder in ["carlo"]:
+for topfolder in ["npg"]:
 
-    base_path = "/media/ruben/Data Drive/react-data/protest/{}".format(topfolder)
+    base_path = "/media/ruben/Data Drive/react-data/{}".format(topfolder)
 
     for photo in [d for d in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, d))]:
         print('INFO: working on {}'.format(photo))

@@ -7,7 +7,7 @@ import json
 from langid.langid import LanguageIdentifier, model
 import spacy
 
-base_path = "/media/ruben/Data Drive/react-data/protest/carlo"
+base_path = "/media/ruben/Data Drive/react-data/npg"
 
 for photo in [d for d in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, d))]:
 

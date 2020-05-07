@@ -7,10 +7,13 @@ import json
 from langid.langid import LanguageIdentifier, model
 import spacy
 
+sampling = True
+sample_size = 1000
 
-for topfolder in ["carlo"]:
 
-    base_path = "/media/ruben/Data Drive/react-data/protest/{}".format(topfolder)
+for topfolder in ["npg"]:
+
+    base_path = "/media/ruben/Data Drive/react-data/{}".format(topfolder)
 
     for photo in [d for d in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, d))]:
 
@@ -23,7 +26,7 @@ for topfolder in ["carlo"]:
 
         print('INFO: Scraping Languages for photo {}'.format(photo))
         language_dict = dict()
-        for iteration in range_iter:
+        for iteration in tqdm(range_iter):
 
             language_dict.update({str(iteration):dict()})
 
@@ -86,17 +89,34 @@ for topfolder in ["carlo"]:
 
         print('INFO: Scraping Dates')
 
-        HTML.Log(os.path.join(base_path,photo),filename='dates-{}.txt'.format(photo))
+        # lOGGING IN A SEPARATE FILE: NEEDS FIXING
+        #HTML.Log(os.path.join(base_path,photo),filename='dates-{}.txt'.format(photo))
 
-        for k,v in scraped_urls.items():
-            print('---- Scraping Dates Iteration {}, {} URLs'.format(k,len(v)))
-            WebPage.PoolScrapeDate(v, os.path.join(base_path,photo),os.path.join(base_path,photo,"dates.txt"))
+        # for k,v in scraped_urls.items():
+        #
+        #     print('---- Scraping Dates Iteration {}, {} URLs'.format(k,len(v)))
+        #     if sampling == True:
+        #         print('----- Sampling with Size {}'.format(sample_size))
+        #         if len(v) < sample_size:
+        #             v = v
+        #         else:
+        #             v = random.sample(v,sample_size)
+        #
+        #     WebPage.PoolScrapeDate(v, os.path.join(base_path,photo),os.path.join(base_path,photo,"dates.txt"))
 
+        # SCRAPE DATES ONE BY ONE: WORKS SLOWER
         dates_dict = dict()
         for it,list_ in scraped_urls.items():
             dates_dict.update({str(it):dict()})
+            print('---- Scraping Dates Iteration {}, {} URLs'.format(it,len(list_)))
+            if sampling == True:
+                print('----- Sampling with Size {}'.format(sample_size))
+                if len(list_) < sample_size:
+                    list_ =list_
+                else:
+                    list_ = random.sample(list_,sample_size)
 
-            for u in list_:
+            for u in tqdm(list_):
                 try:
                     date = WebPage.gatherSingleDate(u)
                     dates_dict[str(it)].update({u:date})
@@ -108,7 +128,7 @@ for topfolder in ["carlo"]:
         with open(os.path.join(base_path,photo,'dates-{}.json'.format(photo)), 'w') as fp:
             json.dump(dates_dict, fp)
 
-        os.remove(os.path.join(base_path,photo,"dates-{}.txt".format(photo)))
+        #os.remove(os.path.join(base_path,photo,"dates-{}.txt".format(photo)))
 
         # '''
         # Step 3: Get Entities

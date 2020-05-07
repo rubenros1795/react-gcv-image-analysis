@@ -28,7 +28,7 @@ photo = args.photo
 n = args.iteration
 
 # Configuration
-base_path = "/media/ruben/Data Drive/react-data/protest/selection3"
+base_path = "/media/ruben/Data Drive/react-data/protest/charlie"
 api_key = "AIzaSyBgfZktfle4jXZ8AkhsTbdaIWO1pyQx-5s"
 print('Working on Photo: {}, Iteration'.format(photo,n))
 

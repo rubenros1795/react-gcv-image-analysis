@@ -9,7 +9,7 @@ import logging
 import time
 
 config_ = {
-          'num_iterations':2,
+          'num_iterations':4,
           'start_iter':1
           }
 
@@ -17,7 +17,7 @@ config_ = {
 dfr = pd.DataFrame()
 
 
-for topfolder in ["batch-images"]:
+for topfolder in ["carlo-batch"]:
 
     base_path = "/media/ruben/Data Drive/react-data/protest/{}".format(topfolder)
     print("INFO: found {} photos in folder {}".format(len([d for d in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, d))]), topfolder))

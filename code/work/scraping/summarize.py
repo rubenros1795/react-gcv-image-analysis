@@ -10,16 +10,17 @@ import time
 
 df = pd.DataFrame()
 
-for topfolder in ["batch-images"]:
+for topfolder in ["npg"]:
 
-    base_path = "/media/ruben/Data Drive/react-data/protest/{}".format(topfolder)
+    base_path = "/media/ruben/Data Drive/react-data/{}".format(topfolder)
 
     for photo in [d for d in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, d))]:
         photo_folder = os.path.join(base_path,photo)
+        print(photo_folder)
 
         num_iterations = list(set([f.split("_")[1] for f in os.listdir(photo_folder) if len(f) == 1]))
 
-        jsonfiles = [[os.path.join(base_path,photo,f,j) for j in os.listdir(os.path.join(base_path,photo,f)) if ".json" in j] for f in os.listdir(photo_folder)]
+        jsonfiles = [[os.path.join(base_path,photo,f,j) for j in os.listdir(os.path.join(base_path,photo,f)) if ".json" in j if "dates" not in j] for f in os.listdir(photo_folder)]
         jsonfiles = [f for f in jsonfiles if f]
         jsonfiles = [item for sublist in jsonfiles for item in sublist]
 

@@ -1,4 +1,0 @@
-configparser
-requests
-networkx
-tldextract

@@ -10,7 +10,7 @@ import json
 Step 1: Scrape Pages
 '''
 
-for topfolder in ["selection"]:
+for topfolder in ["carlo-batch"]:
 
     base_path = "/media/ruben/Data Drive/react-data/protest/{}".format(topfolder)
 
