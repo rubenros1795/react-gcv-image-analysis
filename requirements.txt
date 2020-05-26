@@ -34,7 +34,7 @@ grpcio==1.27.2
 h5py==2.10.0
 hdbscan==0.8.24
 htmldate==0.6.1
-httplib2==0.9.2
+httplib2==0.18.0
 idna==2.9
 jedi==0.16.0
 jellyfish==0.7.2
