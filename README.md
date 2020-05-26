@@ -11,7 +11,9 @@ Clone this repository to your own machine by executing the following command in 
 Navigate to the cloned directory (use ```cd```) and create a new Python environment by using Anaconda. To do this, execute:
 ```conda create -n new_environment --file requirements.txt``` (replace new_environment by a custom name)
 
-Alternatively, go to the Anaconda GUI (Graphical User Interface) and create an environment. Manually add the following Python libraries:
+Alternatively, go to the Anaconda GUI (Graphical User Interface) and create an environment. 
+
+Add the following Python libraries:
 - pandas
 - os
 - beautifulsoup4 & bs4
@@ -20,6 +22,8 @@ Alternatively, go to the Anaconda GUI (Graphical User Interface) and create an e
 - htmldate
 - langid
 - purl
+
+This can be done with the command ```conda install -n <env_name> <package>```
 
 Activate the environment in Anaconda or using your terminal (replace new_environment with the name given to your environment)
 
