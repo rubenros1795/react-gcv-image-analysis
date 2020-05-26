@@ -16,12 +16,13 @@ Alternatively, go to the Anaconda GUI (Graphical User Interface) and create an e
 Add the following Python libraries:
 - pandas
 - os
-- beautifulsoup4 & bs4
+- bs4
 - spacy
 - gensim
 - htmldate
 - langid
 - purl
+- requests
 
 This can be done with the command ```conda install -n <env_name> <package>```
 
