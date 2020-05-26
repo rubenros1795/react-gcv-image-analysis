@@ -8,12 +8,9 @@ The scripts in this project are written in Python. It is advised to use Anaconda
 Clone this repository to your own machine by executing the following command in your terminal:
 ```git clone https://github.com/rubenros1795/ReACT_GCV.git```
 
-Navigate to the cloned directory (use ```cd```) and create a new Python environment by using Anaconda. To do this, execute:
-```conda create -n new_environment --file requirements.txt``` (replace new_environment by a custom name)
+Go to the Anaconda GUI (Graphical User Interface) and create a new environment. In this environment, install Jupyter Notebook.
 
-Alternatively, go to the Anaconda GUI (Graphical User Interface) and create an environment. 
-
-Add the following Python libraries:
+Also, add the following Python libraries:
 - pandas
 - os
 - bs4
@@ -24,8 +21,10 @@ Add the following Python libraries:
 - purl
 - requests
 
-This can be done with the command ```conda install -n <env_name> <package>```
+Try to open Juypter Notebooks in the Anaconda program. If this does not work, go to the terminal and activate the environment:
+```conda activate enviornment_name```
 
-Activate the environment in Anaconda or using your terminal (replace new_environment with the name given to your environment)
+Then, open Jupyter Notebooks:
+```jupyter notebook```
 
-```conda activate new_environment```
+--------------------
