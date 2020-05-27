@@ -1,14 +1,14 @@
 # A Beginners Guide to Working with Web Data in Python
 
 ## The Goal
-- identify frequential patterns in metadata and textual data
-- programming languages as useful tools in structuring the data in countable units
+- identify frequential patterns in metadata and textual data drawn from the web
 
 ## Programming for Distant Viewing and Reading
+- programming languages as useful tools in structuring the data in countable units
 - programming languages
 - Python
 - Practicalities:
-  - Python execution
+  - Running a Python Script & Jupyter Notebooks
   - Basic Stuff
     - objects (str,int,list,dict)
     - functions
@@ -21,3 +21,7 @@
 - the form of web data
 
 ## Working with Web Data in Python
+- installing Python and starting a JN environment
+- importing data (.json + .txt)
+- reordering data (creating lists + tables)
+- visualizing patterns
