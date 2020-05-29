@@ -22,6 +22,13 @@ The Notebooks located in this repository are slightly different from ```.py``` s
     - common operations
   - Modules
   - The horrors of pip
+  
+Python is an object-oriented language. This means that is revolves around objects and actions performed over these objects. Objects can assume different forms, usually reffered to as "types". Because we will encounter several types in the Notebook, they are listed below. 
+
+- strings: series of characters between quotation marks. Storing a string type in variable x is done by executing: ```x = "example string"```. 
+- integers: numbers. Storing an integer in variable x is done by executing ```x = 1```.
+- lists: a list of string, integer or other objects. Storing a list in variable x is done by executing ```x = [1, "string example", 3, ["list inside", "list"]]```. Accessing elements in a list is done by doing ```list[0]```, which returns 1. Note that Python starts counting at 0!
+
 
 ## Working with Web Data in Python
 - installing Python and starting a JN environment
