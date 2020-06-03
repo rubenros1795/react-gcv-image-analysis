@@ -5,7 +5,7 @@ Clone this repository to your own machine by executing the following command in 
 ```git clone https://github.com/rubenros1795/ReACT_GCV.git``` or download and unzip the repo (top-right corner).
 
 
-## Installation Guide
+## Installation Guide 
 The Notebooks found in the ```/notebooks``` folder require a Pyton installation. In this step-by-step installation guide we explain how to install Anaconda, a Python distribution, and create a virtual environment. 
 
 _Installing_ \
