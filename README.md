@@ -1,40 +1,41 @@
 # ReACT_GCV
-Python tool for analyzing images on the Web using the Google Cloud Vision API.
-
-
-## Installation Instructions
-The scripts in this project are written in Python. It is advised to use Anaconda for installing Python. Download Anaconda here: https://repo.anaconda.com/archive/
+Python tool for analyzing images on the Web using the Google Cloud Vision API. 
 
 Clone this repository to your own machine by executing the following command in your terminal:
-```git clone https://github.com/rubenros1795/ReACT_GCV.git```
+```git clone https://github.com/rubenros1795/ReACT_GCV.git``` or download and unzip the repo (top-right corner).
 
-Go to the Anaconda GUI (Graphical User Interface) and create a new environment. In this environment, install Jupyter Notebook.
 
-Also, add the following Python libraries:
-- pandas
-- os
-- bs4
-- spacy
-- gensim
-- htmldate
-- langid
-- purl
-- requests
+## Installation Guide 
+The Notebooks found in the ```/notebooks``` folder require a Pyton installation. In this step-by-step installation guide we explain how to install Anaconda, a Python distribution, and create a virtual environment. 
 
-Try to open Juypter Notebooks in the Anaconda program. If this does not work, go to the terminal and activate the environment:
-```conda activate enviornment_name```
+_Installing_
+1. Download Anaconda here: https://repo.anaconda.com/archive/ or through here: https://docs.anaconda.com/anaconda/install/
 
-Then, open Jupyter Notebooks:
-```jupyter notebook```
+2. Install Anaconda, for detailed guides see: https://docs.anaconda.com/anaconda/install/
 
---------------------
+_Creating a Virtual Environment_
 
-## Working with the Notebooks
+Anaconda installs Python on the system (it is a Python distribution). To run scripts and notebooks it is advised to create a so-called "virtual environment" (VE) for your project. Below we show how to create a VE.
 
-When in the Jupyter Notebook environment, navigate to the project folder (called ```ReACT_GCV```) and open the Notebooks subfolder. Start with NB1.
+3. Go to the terminal. On Windows you will find it as ```cmd``` (search in the bottom-right corner), on Mac and Linux simply as "terminal" in the application overview.
 
-N.B.: if the code won't run because packages are not installed, and if these packages can't be installed in Anaconda, install them with pip. To do this:
-  1. Run ```conda create -n venv_name``` and ```conda activate venv_name```, where venv_name is the name of your virtual environment.
-  2. Run ```conda install pip```. This will install pip to your venv directory.
-  3. Find your anaconda directory, and find the actual venv folder. It should be somewhere like ```/anaconda/envs/venv_name/```.
-  4. Install new packages by doing ```/anaconda/envs/venv_name/bin/pip install package_name```.
+4. Check if you succesfully installed Anaconda by typing ```conda -v``` and pressing ```Enter``` to execute the terminal command.
+
+5. Create an environment by executing ```conda create -n yourenvname```. This creates a new VE in the ```anaconda3/envs/``` folder.
+
+6. Activate the environment by executing ```conda activate yourenvname```.
+
+_Installing Libraries_
+
+7. In order to use the notebooks in this repository, we need several seconday Python libraries. These are found in the ```requirements.txt``` file. To install the libraries, navigate to the ReACT_GCV folder in the terminal (N.B.: activate the VE first!). Once you are in the right folder, execute ```conda install --file requirements.txt```.
+
+8. Here the trouble starts. Some libaries are not available in the Anaconda channel (the list of libraries that Anaconda knows). To install the missing libaries, first install pip, a Python "librarian".
+- Windows: see the instructions (here)[https://www.liquidweb.com/kb/install-pip-windows/].
+- Linux: sudo apt install python-pip.
+- Mac: ```sudo easy_install pip```.
+
+9. Install the missing libraries by executing ```pip install libraryname``` (for example: ```pip install purl```).
+
+_Opening Jupyter Notebooks_
+
+10. Open Jupyter Notebooks by simply executing ```jupyter notebook```. Navigate to the ```/notebooks``` folder and open the ```.ipynb``` file.
