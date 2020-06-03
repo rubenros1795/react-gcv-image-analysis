@@ -84,6 +84,9 @@ def AdjNounPairs(language,keyword_vocab, verbose=True, export=True,fn=""):
 
 def NounVerbPairs(language,keyword_vocab, verbose=True, export=True,fn="",extension_dict={},lemmatize=True):
     nlp = spacy.load(spacy_d[language])
+
+    ss=[]
+
     for c,i in enumerate(data['sentences']):
         i = replaceExtension(i,extension_dict)
 

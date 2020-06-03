@@ -29,14 +29,14 @@ for vocab in [protests_vocab,protesters_vocab,['polizia'],['CARLO'],violence_voc
     #     threshold = 25
     #     )
 
-    NounAdjPairs('it',
-                vocab,
-                verbose=True,
-                export=True,
-                fn="-".join(vocab) + "-noun-adjective-pair.csv",
-                extension_dict=extension_dict)
+    # NounAdjPairs('it',
+    #             vocab,
+    #             verbose=True,
+    #             export=True,
+    #             fn="-".join(vocab) + "-noun-adjective-pair.csv",
+    #             extension_dict=extension_dict)
 
-    NounAdjPairs('it',
+    NounVerbPairs('it',
                 vocab,
                 verbose=True,
                 export=True,
