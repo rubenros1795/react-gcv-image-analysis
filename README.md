@@ -8,9 +8,9 @@ Clone this repository to your own machine by executing the following command in 
 ## Installation Guide 
 The Notebooks found in the ```/notebooks``` folder require a Pyton installation. In this step-by-step installation guide we explain how to install Anaconda, a Python distribution, and create a virtual environment. 
 
-_Installing_ \
+_Installing_
 1. Download Anaconda here: https://repo.anaconda.com/archive/ or through here: https://docs.anaconda.com/anaconda/install/ \
-2. Install Anaconda, for detailed guides see: https://docs.anaconda.com/anaconda/install/ \
+2. Install Anaconda, for detailed guides see: https://docs.anaconda.com/anaconda/install/
 
 _Creating a Virtual Environment_ \
 Anaconda installs Python on the system (it is a Python distribution). To run scripts and notebooks it is advised to create a so-called "virtual environment" (VE) for your project. Below we show how to create a VE. \
