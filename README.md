@@ -30,7 +30,7 @@ _Installing Libraries_
 7. In order to use the notebooks in this repository, we need several seconday Python libraries. These are found in the ```requirements.txt``` file. To install the libraries, navigate to the ReACT_GCV folder in the terminal (N.B.: activate the VE first!). Once you are in the right folder, execute ```conda install --file requirements.txt```.
 
 8. Here the trouble starts. Some libaries are not available in the Anaconda channel (the list of libraries that Anaconda knows). To install the missing libaries, first install pip, a Python "librarian".
-- Windows: see the instructions (here)[https://www.liquidweb.com/kb/install-pip-windows/].
+- Windows: see the instructions here: https://www.liquidweb.com/kb/install-pip-windows/.
 - Linux: sudo apt install python-pip.
 - Mac: ```sudo easy_install pip```.
 
