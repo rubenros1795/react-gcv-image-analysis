@@ -38,9 +38,9 @@ print(sum_result)
 
 ```
 
+Based on this premise (functions operating on objects), we can build complex programs. There is no need to do this all by yourself. Like many other object-oriented languages, Python has the ability to import _libraries_: scripts that are made by other people for specific tasks. Libraries are imported by simply doing:
 
-## Working with Web Data in Python
-- installing Python and starting a JN environment
-- importing data (.json + .txt)
-- reordering data (creating lists + tables)
-- visualizing patterns
+``` import pandas```
+
+Now, all the functions available in the pandas library are accessible by doing for example: ``` pandas.DataFrame(list_of_numbers) ```. In this case, we use the library pandas to transform a list into another datatype: a DataFrame.
+
