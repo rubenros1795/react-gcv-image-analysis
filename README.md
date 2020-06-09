@@ -39,3 +39,14 @@ _Installing Libraries_
 _Opening Jupyter Notebooks_
 
 10. Open Jupyter Notebooks by simply executing ```jupyter notebook```. Navigate to the ```/notebooks``` folder and open the ```.ipynb``` file.
+
+## Code Instructions
+
+The scripts are grouped in three folders: scraping, parsing and analysis. 
+
+### Scraping
+To scrape, edit the folder paths in ```scrape.py```, add the API key and run the script. Setting up a Google Cloud account is explained in the first notebook. The ```scrape.py``` script will reupload the scraped images until no unique images are found. An explanation of this iterative pipeline is also found in the notebooks. We found that the API often finds combined images, meaning that the input image is combined with another image. Because this leads to the identification of this second, unwanted, image in the next iteration it is advised to manually check the relevance of the identified image after every iteration. For this reason ```scrape-manual.py``` offers the possibility to execute the scraping script for a specific iteration. Edit the folder paths before running the script in the terminal:
+
+```
+python scrape-manual.py --photo example_photo --iteration 1
+```
