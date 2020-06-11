@@ -30,7 +30,7 @@ _Installing Libraries_
 7. In order to use the notebooks in this repository, we need several seconday Python libraries. These are found in the ```requirements.txt``` file. To install the libraries, navigate to the ReACT_GCV folder in the terminal (N.B.: activate the VE first!). Once you are in the right folder, execute ```conda install --file requirements.txt```.
 
 8. Here the trouble starts. Some libaries are not available in the Anaconda channel (the list of libraries that Anaconda knows). To install the missing libaries, first install pip, a Python "librarian".
-- Windows: see the instructions (here)[https://www.liquidweb.com/kb/install-pip-windows/].
+- Windows: see the instructions here: https://www.liquidweb.com/kb/install-pip-windows/.
 - Linux: sudo apt install python-pip.
 - Mac: ```sudo easy_install pip```.
 
@@ -39,3 +39,14 @@ _Installing Libraries_
 _Opening Jupyter Notebooks_
 
 10. Open Jupyter Notebooks by simply executing ```jupyter notebook```. Navigate to the ```/notebooks``` folder and open the ```.ipynb``` file.
+
+## Code Instructions
+
+The scripts are grouped in three folders: scraping, parsing and analysis. 
+
+### Scraping
+To scrape, edit the folder paths in ```scrape.py```, add the API key and run the script. Setting up a Google Cloud account is explained in the first notebook. The ```scrape.py``` script will reupload the scraped images until no unique images are found. An explanation of this iterative pipeline is also found in the notebooks. We found that the API often finds combined images, meaning that the input image is combined with another image. Because this leads to the identification of this second, unwanted, image in the next iteration it is advised to manually check the relevance of the identified image after every iteration. For this reason ```scrape-manual.py``` offers the possibility to execute the scraping script for a specific iteration. Edit the folder paths before running the script in the terminal:
+
+```
+python scrape-manual.py --photo example_photo --iteration 1
+```

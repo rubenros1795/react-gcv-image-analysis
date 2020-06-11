@@ -15,23 +15,32 @@ The _commands_ that are written in Python are usually stored in scripts that hav
 The Notebooks located in this repository are slightly different from ```.py``` scripts. Notebooks are files that contain both Python code and text or images. They offer the opportunity to run Python code cell by cell (instead of all at once). This enables easy editing of the code and a more transparent way of working. If you have Anaconda installed, find Jupyter Notebooks in your list of applications. Once opened you will be redirected to a browser window. Navigate to the location where you downloaded this repository and open the Notebook to see how it looks. Cells are executed by pressing ```Shift``` + ```Enter```.
 
 
-## Python Basics
-  - basic syntax
-    - objects (str,int,list,dict)
-    - functions
-    - common operations
-  - Modules
-  - The horrors of pip
-  
+## Python Basics 
 Python is an object-oriented language. This means that is revolves around objects and actions performed over these objects. Objects can assume different forms, usually reffered to as "types". Because we will encounter several types in the Notebook, they are listed below. 
 
 - *strings*: series of characters between quotation marks. Storing a string type in variable x is done by executing: ```x = "example string"```. 
 - *integers*: numbers. Storing an integer in variable x is done by executing ```x = 1```.
 - *lists*: a list of string, integer or other objects. Storing a list in variable x is done by executing ```x = [1, "string example", 3, ["list inside", "list"]]```. Accessing elements in a list is done by doing ```list[0]```, which returns 1. Note that Python starts counting at 0!
 
+Since Python is an object-oriented language, most of it revolves around the objects described above. Running operations over an object (for example, calculating the sum of a list of figures) is usually done with functions. Functions are blocks of code that can be called. For example:
 
-## Working with Web Data in Python
-- installing Python and starting a JN environment
-- importing data (.json + .txt)
-- reordering data (creating lists + tables)
-- visualizing patterns
+```
+x = [1,2,3]
+
+def SumFunction(input_list):
+  sum_of_input_list = sum(input_list)
+  return sum_of_input_list
+  
+sum_result = SumFunction(x)
+print(sum_result)
+
+>> 6
+
+```
+
+Based on this premise (functions operating on objects), we can build complex programs. There is no need to do this all by yourself. Like many other object-oriented languages, Python has the ability to import _libraries_: scripts that are made by other people for specific tasks. Libraries are imported by simply doing:
+
+``` import pandas```
+
+Now, all the functions available in the pandas library are accessible by doing for example: ``` pandas.DataFrame(list_of_numbers) ```. In this case, we use the library pandas to transform a list into another datatype: a DataFrame.
+
