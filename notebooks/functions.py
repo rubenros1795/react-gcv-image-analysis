@@ -1,14 +1,10 @@
-import urllib.request, urllib.error, urllib.parse
-from urllib.error import HTTPError, URLError
 from boilerpipe.extract import Extractor
 from nltk.tokenize import word_tokenize
-from urllib.parse import urlparse
 from http.client import IncompleteRead
 from htmldate import find_date
 from bs4 import BeautifulSoup
 import concurrent.futures
 from tqdm import tqdm
-import urllib.request
 from PIL import Image
 import numpy as np
 import urllib.request
@@ -30,13 +26,16 @@ import uuid
 import csv
 import io
 
-
-
-
 import langid
 from langid.langid import LanguageIdentifier, model
 identifier = LanguageIdentifier.from_modelstring(model, norm_probs=True)
 
+"""
+Helper functions for scraping.
+Json() handles importing and querying the jsons
+Img() handles the Scraping
+Duplicates() removes images that are similar in width, height and color (rgb)
+"""
 
 class Json():
     def __init__(self, filename, list_json):
@@ -76,11 +75,20 @@ class Json():
                 temp_url = Json.extract_images(js)
                 all_url = all_url + temp_url
             except KeyError:
-                print('corrupted json file, probably an 400 Error!')
+                print('wrong .json input, there are probably no images in this .json')
                 continue
         return list(set(all_url))
 
-class Im():
+    def extract_pages(filename):
+        json_object = Json.load(filename)
+
+        list_url = []
+
+        for c,i in enumerate(json_object['responses'][0]['webDetection']['pagesWithMatchingImages']):
+            list_url.append(i['url'])
+        return list_url
+
+class Img():
 
     def __init__(url,list_url):
         self.url = url
@@ -127,7 +135,7 @@ class Im():
     def Scrape(list_url):
         with concurrent.futures.ThreadPoolExecutor() as e:
             for u in list_url:
-                e.submit(Im.Scraper, u)
+                e.submit(Img.Scraper, u)
 
     def RemoveSmall(folder,size=2500):
         list_images = [os.path.join(folder,l) for l in os.listdir(folder) if ".png" in l or ".jpg" in l]
@@ -180,62 +188,21 @@ class Duplicates():
         else:
             print("no image files found, no duplicates removed")
 
+#nlp = spacy.load('en_core_web_sm')
 
-class Organize():
-    def __init__(self,folder_base="",num_iterations=0,iteration=0):
-        self.folder_base = folder_base
-        self.num_iterations = num_iterations
-        self.iteration = iteration
+"""
+Helper functions for parsing.
+dateparser(), pagescraper(), textparser(),imagescraper() are collected in Parse() functions.
+Use as follows:
+- Parse.Texts(base_path, photo) to parse texts from html files
+- Parse.Languages(base_path, photo) to parse languages from text
+- Parse.Dates(base_path, photo) to parse dates from URLs (N.B.: takes a long time for 100.000 documenst and more, use multiprocessing)
+- Parse.Entities(base_path, photo) to parse entities from texts using spacy
+- Parse.ContextImages(base_path, photo) to download other images present on .html pages.
+"""
 
-    def gatherJson(folder_base,iteration):
-        folder_path = folder_base + "_" + str(iteration)
-        folder_path = os.path.join(folder_path)
-
-        list_json = [j for j in os.listdir(folder_path) if ".json" in j]
-
-        results = []
-        for fn in list_json:
-            with open(os.path.join(folder_path, fn)) as jsf:
-                #print(folder_path, fn)
-                data = json.load(jsf)
-                try:
-                    data = data['responses'][0]['webDetection']['pagesWithMatchingImages']
-                    for d in data:
-                        results.append(d)
-                except KeyError:
-                    print('{} has an error'.format(fn))
-        return results
-
-    def gatherImageUrlsProcessed(folder_base, iteration) :
-        base_path = os.getcwd()
-        folder = os.path.join(base_path, folder_base + "_" + str(iteration), "img")
-        if not os.path.exists(folder):
-            print('No images found in {}: path does not yet exist'.format(folder_base + "_" + str(iteration) + "/img"))
-            return
-        else:
-            list_txt = [i for i in os.listdir(folder) if ".txt" in i]
-            list_txt = [os.path.join(folder,i) for i in list_txt]
-
-            success = 0
-            errors = 0
-
-            if len(list_txt) == 0:
-                print('No images found in {}: no images in folder'.format(folder_base + "_" + str(iteration) + "/img"))
-            else:
-                list_url = []
-                for t in list_txt:
-                    with open(t,'r') as f:
-                        c = f.readlines()
-                    if c[0][:5] == "ERROR":
-                        errors += 1
-                        list_url.append(c[0])
-                    else:
-                        success += 1
-                        list_url.append(c[0])
-                print("Found {} successful and {} failed scraped images".format(success, errors))
-                return list_url
-
-class WebPage():
+###### Parse() helper classes
+class dateparser():
     def __init__(self,url,list_url,filename):
         self.url = url
         self.list_url = list_url
@@ -331,7 +298,7 @@ class WebPage():
             return "na"
 
     def gatherSingleDate(url):
-        date = WebPage.gatherDateMatch(url)
+        date = dateparser.gatherDateMatch(url)
         if date == "na":
             try:
                 date = find_date(url)
@@ -344,7 +311,7 @@ class WebPage():
             return date
 
     def gatherSingleDateMultiProc(url,filename):
-        date = WebPage.gatherDateMatch(url)
+        date = dateparser.gatherDateMatch(url)
         if date == "na":
             try:
                 date = find_date(url)
@@ -379,7 +346,7 @@ class WebPage():
         # We can use a with statement to ensure threads are cleaned up promptly
         with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
             # Start the load operations and mark each future with its URL
-            future_to_url = {executor.submit(WebPage.gatherSingleDateMultiProc, url, filename): url for url in list_url}
+            future_to_url = {executor.submit(dateparser.gatherSingleDateMultiProc, url, filename): url for url in list_url}
             for future in concurrent.futures.as_completed(future_to_url):
                 url = future_to_url[future]
                 try:
@@ -390,7 +357,7 @@ class WebPage():
                 else:
                     pass
 
-class HTML():
+class pagescraper():
     def __init__(self,destination_path, list_url,filename):
         self.destination_path = destination_path
         self.list_url = list_url
@@ -409,14 +376,12 @@ class HTML():
         time.sleep(0.1)
 
     def PoolScrape(list_url, destination_path):
-        if not os.path.exists(destination_path):
-            os.makedirs(destination_path)
-
         threads = min(30, len(list_url))
+
         # We can use a with statement to ensure threads are cleaned up promptly
         with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
             # Start the load operations and mark each future with its URL
-            future_to_url = {executor.submit(HTML.Scraper, url, destination_path): url for url in list_url}
+            future_to_url = {executor.submit(pagescraper.Scraper, url, destination_path): url for url in list_url}
             for future in concurrent.futures.as_completed(future_to_url):
                 url = future_to_url[future]
                 try:
@@ -427,47 +392,42 @@ class HTML():
                 else:
                     pass
 
-class ParseText():
+class textparser():
     def __init__(self,html_folder):
         self.html_folder = html_folder
 
     def Import(html_folder):
 
-        print("Looking for results.txt in {}".format(html_folder))
-        with open(os.path.join(html_folder, "results.txt")) as f:
-            urls = f.readlines()
-            urls_new = []
-            for u in urls:
-                try:
-                    id = str(u).split('|')[0]
-                    url = str(u).split('|')[1].replace('\n','')
-                    id = id + '.html'
-                    id = os.path.join(html_folder,id)
-                    urls_new.append((id, url))
-                except IndexError:
-                    print('error in loading url')
-                    continue
-
-        return urls_new
-
+        if os.path.exists(os.path.join(html_folder, "results.txt")):
+            with open(os.path.join(html_folder, "results.txt")) as f:
+                urls = f.readlines()
+                urls_new = []
+                for u in urls:
+                    try:
+                        id = str(u).split('|')[0]
+                        url = str(u).split('|')[1].replace('\n','')
+                        id = id + '.html'
+                        id = os.path.join(html_folder,id)
+                        urls_new.append((id, url))
+                    except IndexError:
+                        continue
+                return urls_new
+        else:
+            print("results.txt not found in {}".format(html_folder))
 
     def ParserBoilerArticle(html_object):
         extractor = Extractor(extractor='ArticleSentencesExtractor', html=html_object)
         sents = extractor.getText()
         try:
-            sents = list(nltk.sent_tokenize(sents))
-            return sents
+            return str(sents)
         except Exception as e:
-            print(e)
             return
-
 
     def ParserBoilerDefault(html_object):
         extractor = Extractor(extractor='DefaultExtractor', html=html_object)
         sents = extractor.getText()
         try:
-            sents = list(nltk.sent_tokenize(sents))
-            return sents
+            return str(sents)
         except Exception as e:
             return
 
@@ -475,8 +435,7 @@ class ParseText():
         extractor = Extractor(extractor='DefaultExtractor', html=html_object)
         sents = extractor.getText()
         try:
-            sents = list(nltk.sent_tokenize(sents))
-            return sents
+            return str(sents)
         except Exception as e:
             return
 
@@ -488,7 +447,8 @@ class ParseText():
         return text
 
     def Parse(html_folder):
-        urls = ParseText.Import(html_folder)
+        urls = textparser.Import(html_folder)
+        print(urls[0])
         errors = 0
         print("INFO: parsing tekst from {} files".format(len(urls)))
         destination_path = os.path.join(html_folder[:-4], "txt")
@@ -505,69 +465,34 @@ class ParseText():
                 with codecs.open(fn,'r',encoding='utf-8',errors='ignore') as f:
                     html_object = f.read()
 
-                sents = ParseText.ParserBoilerArticle(html_object)
+                sents = textparser.ParserBoilerArticle(html_object)
 
                 if len(sents) < 2 or sents is None:
-                    sents = ParseText.ParserBoilerDefault(html_object)
+                    sents = textparser.ParserBoilerDefault(html_object)
                 if len(sents) < 2 or sents is None:
-                    sents = ParseText.ParserBoilerEverything(html_object)
+                    sents = textparser.ParserBoilerEverything(html_object)
                 if len(sents) < 2 or sents is None:
-                    sents = ParseText.ParserRaw(html_object)
+                    sents = textparser.ParserRaw(html_object)
 
                 if type(sents) == list:
-                    text_dict.update({id:[str(sent) for sent in sents]})
+                    text_dict.update({id:" ".join([str(sent) for sent in sents])})
                 if type(sents) == str:
-                    text_dict.update({id:[sents]})
+                    text_dict.update({id:sents})
 
             except Exception as e:
-                print(e)
                 continue
 
         with open(os.path.join(destination_path, "parsed_text.json"), "w") as js:
             json.dump(text_dict,js)
 
-class Language():
-    def __init__(self,url,text):
-        self.text = text
-        self.url = url
-
-    def ParseUrl(url):
-        delimiters = "/", ".", " "
-        regexPattern = '|'.join(map(regexz.escape, delimiters))
-        url_phrase = [x for x in urlparse(url) if x][2:]
-        url_phrase = " ".join([x for x in url_phrase if x])
-        url_phrase = regexz.split(regexPattern, url_phrase)
-        url_phrase = [x for x in url_phrase if x]
-
-        if len(url_phrase) == 0:
-            return
-
-        url_phrase = max(url_phrase, key=len)
-
-        if "-" in url_phrase:
-            url_phrase = url_phrase.split('-')
-
-        lang = identifier.classify(" ".join(url_phrase))
-        if lang is not None:
-            return [lang[0],lang[1]]
-        else:
-            return
-
-    def ParseText(text):
-        try:
-            lang = identifier.classify(str(text[1:-1]))
-            return [lang[0],lang[1]]
-        except Exception as e:
-            return ["na","na"]
-
-class IM():
+class imagescraper():
     def __init__(url,filename):
         self.url = url
         self.filename = filename
 
-    def scraperTwo(url):
+    def Scrape(url):
         fn = uuid.uuid1()
-        #fn = regexz.sub(r'\W+', '', url)
+        #fn = re.sub(r'\W+', '', url)
 
         if "png" in url:
             fn = str(fn) + ".png"
@@ -581,6 +506,7 @@ class IM():
             fn = str(fn) + ".jpg"
         else:
             return 0
+        print(fn)
 
         #try:
             #image_content = requests.get(url, timeout=20).content
@@ -605,7 +531,7 @@ class IM():
                 f.write("ERROR: " + str(e) + "|" + url)
             return
 
-    def imgTag(filename):
+    def findtags(filename):
         extensions = ".jpg .JPG .JPEG .jpeg .Jpeg .png".split(' ')
 
         #try:
@@ -635,3 +561,249 @@ class IM():
             return list_url
         else:
             return
+
+###### Parse() class for 2nd notebook
+class Parse():
+    """docstring for Parse.
+    - Texts() parses texts from .html file using boilerpipe
+    - Languages() parses languages from webpage content using the langid library
+    - Dates() parses dates from urls and webpage content by regex patters and the htmldate library
+    """
+
+    def __init__(self,photo, base_path):
+        super(Parse, self).__init__()
+        self.photo = photo
+        self.base_path = base_path
+
+    def Texts(base_path,photo):
+        photo_folder = os.path.join(base_path, photo)
+        num_iterations = len([fol for fol in os.listdir(photo_folder) if os.path.isdir(os.path.join(photo_folder,fol)) and "source" not in fol])
+        start_iter = 1
+        range_iter = [str(i) for i in list(range(1,num_iterations + 1))]
+        folder_base = os.path.join(base_path,photo,photo)
+
+        for iteration in range_iter:
+            print("INFO: scraping text for {}, iteration {}".format(photo, iteration))
+            textparser.Parse(os.path.join(folder_base+ "_" + str(iteration), "html"))
+
+    def Languages(base_path,photo):
+        photo_folder = os.path.join(base_path, photo)
+        num_iterations = len([fol for fol in os.listdir(photo_folder) if os.path.isdir(os.path.join(photo_folder,fol)) and "source" not in fol])
+        start_iter = 1
+        range_iter = [str(i) for i in list(range(1,num_iterations+1))]
+        folder_base = os.path.join(base_path,photo,photo)
+
+        print('INFO: Scraping Languages for photo {}'.format(photo))
+
+        identifier = LanguageIdentifier.from_modelstring(model, norm_probs=True)
+
+        language_dict = {}
+        for iteration in range_iter:
+
+            if os.path.isdir(os.path.join(folder_base + "_" + str(iteration) + "/txt")) == False:
+                print('INFO: No texts in this iteration, stopping..')
+                continue
+
+            language_dict.update({str(iteration):{}})
+
+            list_json= [js for js in os.listdir(os.path.join(base_path,photo,photo + "_" + str(iteration),"txt")) if ".json" in js]
+
+            for js in list_json:
+                with open(os.path.join(base_path,photo,photo + "_" + str(iteration),"txt", js)) as f:
+                    json_content = json.load(f)
+
+                for id_, text in json_content.items():
+
+                    language_score = identifier.classify(str(text))
+                    language_dict[str(iteration)].update({id_:[language_score[0],language_score[1]]})
+
+        # Write Detected Languages to language.json
+        print("INFO: Writing detected languages to {}".format(os.path.join(photo,'languages.json')))
+        with open(os.path.join(base_path,photo,'languages-{}.json'.format(photo)), 'w') as fp:
+            json.dump(language_dict, fp)
+
+    def Dates(base_path,photo):
+
+        #########################
+        photo_folder = os.path.join(base_path, photo)
+        num_iterations = len([fol for fol in os.listdir(photo_folder) if os.path.isdir(os.path.join(photo_folder,fol)) and "source" not in fol])
+        start_iter = 1
+        range_iter = [str(i) for i in list(range(1,num_iterations+1))]
+        folder_base = os.path.join(base_path,photo,photo)
+        #########################
+
+        scraped_urls = {}
+        print('INFO: Scraping Dates')
+
+        for iteration in range_iter:
+            try:
+                with open(os.path.join(base_path, photo, photo + "_" + str(iteration), "html", "results.txt"), 'r', encoding='utf-8') as f:
+                    lu = f.readlines()
+                lu = [l.split('|') for l in lu]
+                lu = [l for l in lu if len(l) == 2]
+                lu = [l[1].replace('\n','') for l in lu]
+                print("---- {} dates found in iteration {}".format(len(lu),iteration))
+                scraped_urls.update({str(iteration):lu})
+            except Exception as e:
+                print("Error: ", e)
+
+        dates_dict = {}
+
+        for it, list_ in scraped_urls.items():
+            dates_dict.update({str(it):dict()})
+            print('---- Scraping Dates Iteration {}, {} URLs'.format(it,len(list_)))
+
+            for u in tqdm(list_):
+                try:
+                    date = dateparser.gatherSingleDate(u)
+                    dates_dict[str(it)].update({u:date})
+                except Exception as e:
+                    print(e)
+
+        # Write Detected Dates to language.json
+        print("INFO: Writing detected dates to {}".format(os.path.join(photo,'dates.json')))
+        with open(os.path.join(base_path,photo,'dates-{}.json'.format(photo)), 'w') as fp:
+            json.dump(dates_dict, fp)
+
+    def Entities(base_path,photo):
+        #########################
+        photo_folder = os.path.join(base_path, photo)
+        num_iterations = len([fol for fol in os.listdir(photo_folder) if os.path.isdir(os.path.join(photo_folder,fol)) and "source" not in fol])
+        start_iter = 1
+        range_iter = [str(i) for i in list(range(1,num_iterations+1))]
+        folder_base = os.path.join(base_path,photo,photo)
+        #########################
+
+        print("INFO: Named Entitiy Recognition using Spacy")
+
+        selected_languages = "en de fr es it nl pt".split(' ')
+        selected_languages = {i:i+"_core_news_sm" for i in selected_languages}
+        selected_languages.update({"en":"en_core_web_sm"})
+
+        def PreProc(text):
+            text = text[1:-1].replace('\xa0', ' ')
+            text = " ".join(text.split('\r\n'))
+            return text
+
+        d_ = {}
+        for iteration in range_iter:
+            fn = os.path.join(folder_base + "_" +str(iteration),"txt", "parsed_text.json")
+            if os.path.isdir(os.path.join(folder_base + "_" +str(iteration),"txt")) == False:
+                print('INFO: no parsed text found in iteration {}'.format(iteration))
+                continue
+
+            with open(fn) as fp:
+                pages = json.load(fp)
+
+            df = []
+            for id_,sentences in pages.items():
+
+                sentences = [s.replace("\n","").lower() for s in sentences]
+                sentences = [re.sub(' +', ' ', s) for s in sentences]
+
+                url = id_.split('html_')[-1]
+                id_ = id_.split('/html/')[1].split('.html_')[0]
+                language = identifier.classify(str(sentences))[0]
+                df.append([url,id_,language,str(sentences)])
+
+            df = pd.DataFrame(df,columns=['url','id','lang','text'])
+
+            # NER
+            for lang in [i for i in list(set(df['lang'])) if i in selected_languages.keys()]:
+                print('INFO: working on language: {}'.format(lang))
+                if lang not in d_.keys():
+                    d_.update({lang:dict()})
+                nlp = spacy.load(selected_languages[lang])
+                tmp = df[df['lang'] == lang]
+
+                for count,text in enumerate(df['text']):
+                    identif = str(df['id'][count])
+                    d_[lang].update({identif:dict()})
+                    d_[lang][identif].update({"text":text})
+                    doc = nlp(text)
+                    doc = [(ent.text, ent.start_char, ent.end_char, ent.label_) for ent in doc.ents]
+                    d_[lang][identif].update({"entities":doc})
+
+        with open(os.path.join(base_path, photo,"entities-{}.json".format(photo)), 'w') as fp:
+            json.dump(d_, fp)
+
+    def ContextImages(base_path,photo):
+
+        ###############################
+        photo_folder = os.path.join(base_path, photo)
+        num_iterations = len([fol for fol in os.listdir(photo_folder) if os.path.isdir(os.path.join(photo_folder,fol)) and "source" not in fol and "context_images" not in fol])
+        start_iter = 1
+        range_iter = [str(i) for i in list(range(1,num_iterations+1))]
+        folder_base = os.path.join(base_path,photo,photo)
+        ###############################
+
+        list_fn = dict()
+
+        for it in range_iter:
+            fp = os.path.join(base_path,photo,photo+"_"+str(it),"html")
+            fps = [os.path.join(fp,i) for i in os.listdir(fp) if ".html" in i]
+            if len(fps) > 0:
+                list_fn.update({it:fps})
+
+        d_ = dict()
+
+        for it,list_ in list_fn.items():
+            d_.update({it:dict()})
+            list_context = []
+
+            for u in list_:
+                context_images = imagescraper.findtags(u)
+                if context_images is not None:
+                    d_[it].update({u:context_images})
+
+        cn = {}
+        for iteration, dict1 in d_.items():
+            cn.update({iteration:dict()})
+            for fn,imgs in dict1.items():
+
+                commas = [item for sublist in [i.split(',') for i in imgs if "," in i] for item in sublist]
+                imgs = list(set(imgs + commas))
+
+                correct = [i for i in imgs if "?w" not in i]
+                potentials = [i.split("?w") for i in imgs if "?w" in i]
+
+                for pbase in list(set([i[0] for i in potentials])):
+                    all_p = [i for i in potentials if i[0] == pbase]
+                    pdef = "?w".join(all_p[0])
+                    if "," in pdef:
+                        [correct.append(i) for i in pdef.split(',')]
+                    else:
+                        correct.append(pdef)
+                cn[iteration].update({fn:correct})
+
+        print('INFO: Dictionary made: {}'.format(os.path.join(base_path,photo,'context-images.json')))
+        with open(os.path.join(base_path,photo,'context-images.json'), 'w') as fp:
+            json.dump(cn, fp)
+
+        urls = cn
+
+        context_images_path = os.path.join(base_path,photo,"context_images")
+
+        if not os.path.exists(context_images_path):
+            os.makedirs(context_images_path)
+
+        # Enable threading for faster scraping (requires function that works with single url)
+        os.chdir(context_images_path)
+
+        for k,v in urls.items():
+
+            for page,all_url in v.items():
+                with concurrent.futures.ThreadPoolExecutor() as e:
+                    for u in all_url:
+                        e.submit(imagescraper.Scrape, u)
+
+        list_images = [l for l in os.listdir(context_images_path) if ".png" in l or ".jpg" in l or ".Jpeg" in l or ".Jpg" in l]
+        small_images = [l for l in list_images if int(os.stat(l).st_size) < 1500]
+
+        for i in small_images:
+            os.remove(os.path.join(context_images_path,i))
+
+        list_images = [l[:-4] for l in os.listdir(context_images_path) if ".png" in l or ".jpg" in l]
+        list_redtxt = [l for l in os.listdir(context_images_path) if ".txt" in l and l[:-4] not in list_images]
+        for i in list_redtxt:
+            os.remove(os.path.join(context_images_path,i))
