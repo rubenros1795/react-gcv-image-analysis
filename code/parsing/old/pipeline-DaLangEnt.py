@@ -134,47 +134,47 @@ for topfolder in ["npg"]:
         # Step 3: Get Entities
         # '''
         # # F. Named Entitiy Recognition using Spacy
-        # print("INFO: Language Detection & Named Entitiy Recognition using Spacy")
-        #
-        # identifier = LanguageIdentifier.from_modelstring(model, norm_probs=True)
-        # selected_languages = "en de fr es it nl pt".split(' ')
-        # selected_languages = {i:i+"_core_news_sm" for i in selected_languages}
-        # selected_languages.update({"en":"en_core_web_sm"})
-        #
-        # def PreProc(text):
-        #     text = text[1:-1].replace('\xa0', ' ')
-        #     text = " ".join(text.split('\r\n'))
-        #     return text
-        #
-        # d_ = dict()
-        # for iteration in range_iter:
-        #
-        #     # Language Detection
-        #     list_csv = [csv for csv in os.listdir(os.path.join(base_path, photo, photo + "_" + str(iteration),"txt")) if ".csv" in csv]
-        #
-        #     df= pd.DataFrame()
-        #     for csv in list_csv:
-        #         tmp = pd.read_csv(os.path.join(base_path, photo, photo + "_" + str(iteration),"txt",csv))
-        #         df = df.append(tmp)
-        #
-        #     df['text'] = [PreProc(str(i)) for i in df['text']]
-        #     df['lang'] = [identifier.classify(i)[0] for i in df['text']]
-        #     df.to_csv(os.path.join(base_path, photo, "text-language-{}.csv".format(photo)),index=False)
-        #
-        #     # NER
-        #     for lang in [i for i in list(set(df['lang'])) if i in selected_languages.keys()]:
-        #         if lang not in d_.keys():
-        #             d_.update({lang:dict()})
-        #         nlp = spacy.load(selected_languages[lang])
-        #         tmp = df[df['lang'] == lang]
-        #
-        #         for count,text in enumerate(df['text']):
-        #             identif = str(df['id'][count])
-        #             d_[lang].update({identif:dict()})
-        #             d_[lang][identif].update({"text":text})
-        #             doc = nlp(text)
-        #             doc = [(ent.text, ent.start_char, ent.end_char, ent.label_) for ent in doc.ents]
-        #             d_[lang][identif].update({"entities":doc})
-        #
-        # with open(os.path.join(base_path, photo,"entities-{}.csv".format(photo)), 'w') as fp:
-        #     json.dump(language_dict, fp)
+        print("INFO: Language Detection & Named Entitiy Recognition using Spacy")
+
+        identifier = LanguageIdentifier.from_modelstring(model, norm_probs=True)
+        selected_languages = "en de fr es it nl pt".split(' ')
+        selected_languages = {i:i+"_core_news_sm" for i in selected_languages}
+        selected_languages.update({"en":"en_core_web_sm"})
+
+        def PreProc(text):
+            text = text[1:-1].replace('\xa0', ' ')
+            text = " ".join(text.split('\r\n'))
+            return text
+
+        d_ = dict()
+        for iteration in range_iter:
+
+            # Language Detection
+            list_csv = [csv for csv in os.listdir(os.path.join(base_path, photo, photo + "_" + str(iteration),"txt")) if ".csv" in csv]
+
+            df= pd.DataFrame()
+            for csv in list_csv:
+                tmp = pd.read_csv(os.path.join(base_path, photo, photo + "_" + str(iteration),"txt",csv))
+                df = df.append(tmp)
+
+            df['text'] = [PreProc(str(i)) for i in df['text']]
+            df['lang'] = [identifier.classify(i)[0] for i in df['text']]
+            df.to_csv(os.path.join(base_path, photo, "text-language-{}.csv".format(photo)),index=False)
+
+            # NER
+            for lang in [i for i in list(set(df['lang'])) if i in selected_languages.keys()]:
+                if lang not in d_.keys():
+                    d_.update({lang:dict()})
+                nlp = spacy.load(selected_languages[lang])
+                tmp = df[df['lang'] == lang]
+
+                for count,text in enumerate(df['text']):
+                    identif = str(df['id'][count])
+                    d_[lang].update({identif:dict()})
+                    d_[lang][identif].update({"text":text})
+                    doc = nlp(text)
+                    doc = [(ent.text, ent.start_char, ent.end_char, ent.label_) for ent in doc.ents]
+                    d_[lang][identif].update({"entities":doc})
+
+        with open(os.path.join(base_path, photo,"entities-{}.csv".format(photo)), 'w') as fp:
+            json.dump(language_dict, fp)

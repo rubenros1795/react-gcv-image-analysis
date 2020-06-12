@@ -59,7 +59,6 @@ for topfolder in ["selection"]:
                         correct.append(pdef)
                 cn[iteration].update({fn:correct})
 
-        print('INFO: Dictionary made: {}'.format(os.path.join(base_path,photo,'context-images.json')))
         with open(os.path.join(base_path,photo,'context-images.json'), 'w') as fp:
             json.dump(cn, fp)
 
