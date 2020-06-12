@@ -3,13 +3,20 @@ This file is meant to assist in removing irrelevant images in the scraping itera
 reuploading this image to the Google Cloud API yields results that stem from an irrelevant one. These need to be removed manually, in order to prevent the introduction of noise.
 The script uses the imagededup library to identify clusters of images. This allows for the batch removal of irrelevant images in the file explorer.
 
+
+
 Usage in command line:
+
+First, do:
 
 python clean-assist.py --operation cluster --input_folder D:/test/photo1/photo1_2/img
 
-or, for cleaning:
+this clusters the photos and gives them cluster-associated file names. After running this, go to the folder and order the files based on name. Now you can easily remove
+batches of irrelevant photos. AFter finishing, run:
 
 python clean-assist.py --operation clean --input_folder D:/test/photo1/photo1_2/img
+
+This removes the cluster-filenames and removes the .txt files without any image attached.
 
 """
 
@@ -17,6 +24,7 @@ from imagededup.methods import PHash
 from collections import Counter
 import pandas as pd
 import argparse
+import shutil
 import os
 
 phasher = PHash()
@@ -34,8 +42,21 @@ operation = args.operation
 ######
 
 def Cluster(input_folder):
+
+    img_files = [i for i in os.listdir(input_folder) if ".txt" not in i]
+
+    img_folder = os.path.join(input_folder,"img")
+
+    if not os.path.exists(img_folder):
+        os.makedirs(img_folder)
+
+    for im in img_files:
+        old_fn = os.path.join(input_folder,im)
+        new_fn = os.path.join(img_folder,im)
+        shutil.move(old_fn, new_fn)
+
     # Generate encodings for all images in an image directory
-    encodings = phasher.encode_images(image_dir=input_folder)
+    encodings = phasher.encode_images(image_dir=img_folder)
 
     # Find duplicates using the generated encodings
     duplicates = phasher.find_duplicates(encoding_map=encodings)
@@ -79,6 +100,7 @@ def Cluster(input_folder):
     single = 0
     multiple = 0
 
+    newfilenames = []
     for i in set(df['c']):
         tmp = df[df['c'] == i]
         tmp = list(set(list(tmp['a']) + list(tmp['b'])))
@@ -86,17 +108,28 @@ def Cluster(input_folder):
             single += 1
             for fn in tmp:
                 newfn = "cluster_single_{}_{}".format(i,fn)
-                newfn = os.path.join(input_folder,newfn)
-                oldfn = os.path.join(input_folder,fn)
+                newfilenames.append(newfn)
+                newfn = os.path.join(img_folder,newfn)
+                oldfn = os.path.join(img_folder,fn)
                 os.rename(oldfn,newfn)
         if len(tmp) > 1:
             multiple += 1
             for fn in tmp:
                 newfn = "cluster_{}_{}".format(i,fn)
-                newfn = os.path.join(input_folder,newfn)
-                oldfn = os.path.join(input_folder,fn)
+                newfilenames.append(newfn)
+                newfn = os.path.join(img_folder,newfn)
+                oldfn = os.path.join(img_folder,fn)
                 os.rename(oldfn,newfn)
 
+
+    image_files = newfilenames
+
+    for im in image_files:
+        old_fn = os.path.join(img_folder,im)
+        new_fn = os.path.join(input_folder,im)
+        shutil.move(old_fn, new_fn)
+
+    os.rmdir(img_folder)
     print('INFO: renamed files.')
     print('---- There are {} clusters that have only one image'.format(single))
     print('---- You can now manually select relevant images in {}'.format(input_folder))
@@ -123,8 +156,9 @@ def Clean(input_folder):
 
 ####
 
-if operation == "cluster":
-    Cluster(input_folder)
+if __name__ == '__main__':
+    if operation == "cluster":
+        Cluster(input_folder)
 
-if operation == "clean":
-    Clean(input_folder)
+    if operation == "clean":
+        Clean(input_folder)
