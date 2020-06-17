@@ -42,7 +42,7 @@ _Opening Jupyter Notebooks_
 
 ## Code Instructions
 
-The scripts are grouped in three folders: scraping, parsing and analysis. 
+For using the pipeline outside of the Juypter Notebooks, we refer to the scripts in ```/code``` The scripts are grouped in three folders: scraping, parsing and analysis. 
 
 ### Scraping
 To scrape, edit the folder paths in ```scrape.py```, add the API key and run the script. Setting up a Google Cloud account is explained in the first notebook. The ```scrape.py``` script will reupload the scraped images until no unique images are found. An explanation of this iterative pipeline is also found in the notebooks. We found that the API often finds combined images, meaning that the input image is combined with another image. Because this leads to the identification of this second, unwanted, image in the next iteration it is advised to manually check the relevance of the identified image after every iteration. For this reason ```scrape-manual.py``` offers the possibility to execute the scraping script for a specific iteration. Edit the folder paths before running the script in the terminal:
@@ -50,3 +50,9 @@ To scrape, edit the folder paths in ```scrape.py```, add the API key and run the
 ```
 python scrape-manual.py --photo example_photo --iteration 1
 ```
+
+### Parsing
+Parsing the data consists of 1) scraping the webpages associated with the identified URLs, 2) extracting texts from the webpages, 3) generating metadata and 4) enriching the texts using Named Entity Recognition. The functions are wrapped in ```functions.py``` and can be called over a photo in ```parse.py```.
+
+### Analysis
+Notebooks and helper functions for various types of analysis are found in ```/analysis```.
