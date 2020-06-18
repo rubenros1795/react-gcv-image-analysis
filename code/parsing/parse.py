@@ -13,7 +13,7 @@ Step 1: Scrape Pages
 '''
 
 
-base_path = "/media/ruben/Data Drive/react-data/protest/test"
+base_path = "/path/to/photos/"
 photo = "2"
 
 # # Parse Texts
