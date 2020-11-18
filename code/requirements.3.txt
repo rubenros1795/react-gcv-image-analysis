@@ -83,7 +83,7 @@ netifaces==0.10.4
 networkx==2.4
 nl-core-news-sm==2.2.5
 nltk==3.4.5
-notebook==6.0.3
+notebook==6.1.5
 numpy==1.18.4
 olefile==0.45.1
 onboard==1.4.1
