@@ -5,7 +5,7 @@ dateparser == 0.7.4
 gensim == 3.8.1
 htmldate == 0.6.1
 langid == 1.1.6
-lxml == 4.4.1
+lxml == 4.6.3
 matplotlib == 3.1.1
 nltk == 3.4.5
 numpy == 1.17.2
