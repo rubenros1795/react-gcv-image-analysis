@@ -159,7 +159,7 @@ ubuntu-drivers-common==0.0.0
 ufw==0.36
 ulauncher==5.7.0
 uritools==3.0.0
-urllib3==1.25.9
+urllib3==1.26.5
 urlparse2==1.1.1
 uuid==1.30
 wasabi==0.6.0
