@@ -1,4 +1,4 @@
-Pillow == 6.2.0
+Pillow == 8.2.0
 boilerpipe3==1.3
 beautifulsoup4 == 4.8.0
 dateparser == 0.7.4
