@@ -84,7 +84,7 @@ networkx==2.4
 nl-core-news-sm==2.2.5
 nltk==3.4.5
 notebook==6.0.3
-numpy==1.18.4
+numpy==1.22.0
 olefile==0.45.1
 onboard==1.4.1
 opencv-python==4.2.0.32
